@@ -19,16 +19,16 @@
 goes here. Paper titles should be written in uppercase and lowercase
 letters, not all uppercase.}
 
-\author[First]{First A. Author, Test} 
-\author[Second]{Second B. Author, Jr.} 
-\author[Third]{Third C. Author}
+\author[First]{Trung Kien La} 
+\author[First]{Eric Guiffo Kaigom} 
+% \author[Third]{Third C. Author}
 
-\address[First]{National Institute of Standards and Technology, 
-   Boulder, CO 80305 USA (e-mail: author@ boulder.nist.gov).}
-\address[Second]{Colorado State University, 
-   Fort Collins, CO 80523 USA (e-mail: author@lamar. colostate.edu)}
-\address[Third]{Electrical Engineering Department, 
-   Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
+\address[First]{Department of Computer Science \& Engineering,
+Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany (e-mails: trung.la@stud.fra-uas.de; kaigom@fb2.fra-uas.de).}
+% \address[Second]{Colorado State University, 
+%    Fort Collins, CO 80523 USA (e-mail: author@lamar. colostate.edu)}
+% \address[Third]{Electrical Engineering Department, 
+%    Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
 
 \begin{abstract}                % Abstract of not more than 250 words.
 These instructions give you guidelines for preparing papers for the $8^{\mathrm{th}}$ IFAC Symposium on Mechatronic Systems and $11^{\mathrm{th}}$ IFAC Symposium on Nonlinear Control Systems. Please use this document as a template to prepare your manuscript. For submission guidelines, follow instructions on paper submission system as well as the event website. 
@@ -53,7 +53,7 @@ Please stick to the format defined by the \texttt{ifacconf} class, and do not ch
 This is the default for the provided class file.}
 Use \emph{italics} for emphasis; do not underline.
 
-\section{Procedure for Paper Submission}
+\section{Background/Related Works/State of the art}
 
 Next we see a few subsections.
 
@@ -176,24 +176,30 @@ IFAC will put in place an electronic copyright transfer system in due
 course. Please \emph{do not} send copyright forms by mail or fax. More
 information on this will be made available on IFAC website.
 
+\section{Data Acquisition and Preprocessing}
+- Kinova Gen3 7 DoF Robot
 
-\section{Units}
+% \section{Units}
 
-Use SI as primary units. Other units may be used as secondary units
-(in parentheses). This applies to papers in data storage. For example,
-write ``$15\,\mathrm{Gb}/\mathrm{cm}^2$ ($100\,\mathrm{Gb}/\mathrm{in}^2$)''. 
-An exception is when
-English units are used as identifiers in trade, such as ``3.5 in
-disk drive''. Avoid combining SI and other units, such as current in
-amperes and magnetic field in oersteds. This often leads to confusion
-because equations do not balance dimensionally. If you must use mixed
-units, clearly state the units for each quantity in an equation.  The
-SI unit for magnetic field strength $\mathbf{H}$ is $\mathrm{A}/\mathrm{m}$. However, if you wish to
-use units of $\mathrm{T}$, either refer to magnetic flux density $\mathbf{B}$ or
-magnetic field strength symbolized as $\mu_0\,\mathbf{H}$. Use the center dot to
-separate compound units, e.g., ``$\mathrm{A} \cdot \mathrm{m}^2$''.
+% Use SI as primary units. Other units may be used as secondary units
+% (in parentheses). This applies to papers in data storage. For example,
+% write ``$15\,\mathrm{Gb}/\mathrm{cm}^2$ ($100\,\mathrm{Gb}/\mathrm{in}^2$)''. 
+% An exception is when
+% English units are used as identifiers in trade, such as ``3.5 in
+% disk drive''. Avoid combining SI and other units, such as current in
+% amperes and magnetic field in oersteds. This often leads to confusion
+% because equations do not balance dimensionally. If you must use mixed
+% units, clearly state the units for each quantity in an equation.  The
+% SI unit for magnetic field strength $\mathbf{H}$ is $\mathrm{A}/\mathrm{m}$. However, if you wish to
+% use units of $\mathrm{T}$, either refer to magnetic flux density $\mathbf{B}$ or
+% magnetic field strength symbolized as $\mu_0\,\mathbf{H}$. Use the center dot to
+% separate compound units, e.g., ``$\mathrm{A} \cdot \mathrm{m}^2$''.
 
-\section{Helpful Hints}
+\section{Proposed Models (various LSTMs, FeedForward) [and Comparision?]}
+- various LSTMs (Strcuture: Hyperparameter {Learning Rate, Epochs, Batch Size, no. of Layers, Regularization, adam optimization}, RMSE, True vs Predicted Temps, etc.)\\
+- FeedForward (same as above)\\
+- fitted function?\\
+- Comparisions
 
 \subsection{Figures and Tables}
 
@@ -270,8 +276,8 @@ outside of the closing parenthesis (like this). (A parenthetical
 sentence is punctuated within the parentheses.) Avoid contractions;
 for example, write ``do not'' instead of ``don' t''. The serial comma
 is preferred: ``A, B, and C'' instead of ``A, B and C''.
-
-
+\section{Discussion?}
+?
 \section{Conclusion}
 
 A conclusion section is not required. Although a conclusion may review
