@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex ifacconf"] 1738153634 "ifacconf.aux" "ifacconf.bbl" "ifacconf" 1738155153
+["bibtex ifacconf"] 1738159778 "ifacconf.aux" "ifacconf.bbl" "ifacconf" 1738160020
   "./ifacconf.bst" 1737747941 30606 0a94c3be66b01cc15224e14423d70f48 ""
-  "ifacconf.aux" 1738155153 3712 b9040c3c96ca1a8e3594014709c2ecad "pdflatex"
+  "ifacconf.aux" 1738160019 3893 410df3e6c7dff18daeb502f878712b95 "pdflatex"
   "ifacconf.bib" 1737747941 1859 1bbe365b5c1ff0bd957a1b0d46662526 ""
   (generated)
   "ifacconf.bbl"
   "ifacconf.blg"
-["pdflatex"] 1738155153 "/home/student/IFAC-2025-Draft/ifacconf.tex" "ifacconf.pdf" "ifacconf" 1738155153
+["pdflatex"] 1738160019 "/home/student/IFAC-2025-Draft/ifacconf.tex" "ifacconf.pdf" "ifacconf" 1738160020
   "/etc/texmf/web2c/texmf.cnf" 1737748182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/student/IFAC-2025-Draft/ifacconf.tex" 1738155152 14789 0345a599dceedff3f0111679d3f22da0 ""
+  "/home/student/IFAC-2025-Draft/ifacconf.tex" 1738160019 15100 b87f8eb69f43ef2c34af4b564977cf2e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -67,10 +67,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1737748186 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1737748192 1435942 0533bd39c2eb45b82313f97dcb8db323 ""
   "bifurcation.jpg" 1737747941 63767 1937436b111a9cf45da0b9188ab3b048 ""
-  "ifacconf.aux" 1738155153 3712 b9040c3c96ca1a8e3594014709c2ecad "pdflatex"
-  "ifacconf.bbl" 1738153634 1044 65aa863a2dd9a060a0df0692a0931b04 "bibtex ifacconf"
+  "ifacconf.aux" 1738160019 3893 410df3e6c7dff18daeb502f878712b95 "pdflatex"
+  "ifacconf.bbl" 1738159778 1044 65aa863a2dd9a060a0df0692a0931b04 "bibtex ifacconf"
   "ifacconf.cls" 1737747941 65509 4f55878f71691d56a61642cb8e426222 ""
-  "ifacconf.tex" 1738155152 14789 0345a599dceedff3f0111679d3f22da0 ""
+  "ifacconf.tex" 1738160019 15100 b87f8eb69f43ef2c34af4b564977cf2e ""
+  "pictures/DataAquisition.pdf" 1738159500 655977 f89a60ef8f143e50a13f397942d2b449 ""
   (generated)
   "ifacconf.aux"
   "ifacconf.log"
