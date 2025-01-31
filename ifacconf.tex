@@ -11,13 +11,12 @@
 \begin{document}
 \begin{frontmatter}
 
-\title{Style for Full Contributions: Use Title Case for
-  Paper Title\thanksref{footnoteinfo}} 
+\title{Model-Free Prediction of  Thermal States of Robot Joint Motors Using Deep Learning} 
 % Title, preferably not more than 10 words.
 
-\thanks[footnoteinfo]{Sponsor and financial support acknowledgment
-goes here. Paper titles should be written in uppercase and lowercase
-letters, not all uppercase.}
+% \thanks[footnoteinfo]{Sponsor and financial support acknowledgment
+% goes here. Paper titles should be written in uppercase and lowercase
+% letters, not all uppercase.}
 
 \author[First]{Trung Kien La} 
 \author[First]{Eric Guiffo Kaigom} 
@@ -31,38 +30,40 @@ Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany (e-ma
 %    Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
 
 \begin{abstract}                % Abstract of not more than 250 words.
-These instructions give you guidelines for preparing papers for the $8^{\mathrm{th}}$ IFAC Symposium on Mechatronic Systems and $11^{\mathrm{th}}$ IFAC Symposium on Nonlinear Control Systems. Please use this document as a template to prepare your manuscript. For submission guidelines, follow instructions on paper submission system as well as the event website. 
+In this work, deep neural networks made up of multiple hidden Long Short-Term Memory (LSTM) and Feed Forward layers are trained to predict the thermal behavior of the joint motors of robot manipulators. 
+A model-free approach is adopted. It allows for the accommodation of complexity and uncertainty challenges that might compromise the identification and validation of a usually large number of  parameters of an approximation model hardly available. 
+By contrast, sensed joint torques are collected and processed using the machine learning approach to foresee the thermal behavior of joint motors. Prediction results related to the thermal dynamics of joint motors of a redundant robot with seven joints are presented. 
 
-Full contributions for the $8^{\mathrm{th}}$ IFAC Symposium on Mechatronic Systems and $11^{\mathrm{th}}$ IFAC Symposium on Nonlinear Control Systems are limited to 6 pages. Please keep the abstract of your paper within a limit of approximately 300 words.
 \end{abstract}
 
 \begin{keyword}
-Five to ten keywords, preferably chosen from the IFAC keyword list.
+%Five to ten keywords, preferably chosen from the IFAC keyword list.
+Robotics, Thermal Management, Artificial Intelligence$\slash$Machine Learning.
 \end{keyword}
 
 \end{frontmatter}
 %===============================================================================
 
 \section{Introduction}
-This document is a template for \LaTeXe. If you are reading a paper or
-PDF version of this document, please download the electronic file
-\texttt{ifacconf.tex}. You will also need the class file
-\texttt{ifacconf.cls}.
+% This document is a template for \LaTeXe. If you are reading a paper or
+% PDF version of this document, please download the electronic file
+% \texttt{ifacconf.tex}. You will also need the class file
+% \texttt{ifacconf.cls}.
 
-Please stick to the format defined by the \texttt{ifacconf} class, and do not change the margins or the general layout of the paper. It is especially important that you do not put any running header/footer or page number in the submitted paper.\footnote{
-This is the default for the provided class file.}
-Use \emph{italics} for emphasis; do not underline.
+% Please stick to the format defined by the \texttt{ifacconf} class, and do not change the margins or the general layout of the paper. It is especially important that you do not put any running header/footer or page number in the submitted paper.\footnote{
+% This is the default for the provided class file.}
+% Use \emph{italics} for emphasis; do not underline.
 
 \section{Background/Related Works/State of the art}
 
-Next we see a few subsections.
+% Next we see a few subsections.
 
 \subsection{Review Stage}
 
-For submission guidelines, follow instructions on paper submission
-system as well as the event website.
+% For submission guidelines, follow instructions on paper submission
+% system as well as the event website.
 
-Note that the $8^{\mathrm{th}}$ IFAC Symposium on Mechatronic Systems and $11^{\mathrm{th}}$ IFAC Symposium on Nonlinear Control Systems impose a strict page limit of 6 pages for full contributions, so it will be better for you to prepare your initial submission in the camera ready layout so that you will have a good estimate for the paper length. Additionally, the effort required for final submission will be minimal.
+% Note that the $8^{\mathrm{th}}$ IFAC Symposium on Mechatronic Systems and $11^{\mathrm{th}}$ IFAC Symposium on Nonlinear Control Systems impose a strict page limit of 6 pages for full contributions, so it will be better for you to prepare your initial submission in the camera ready layout so that you will have a good estimate for the paper length. Additionally, the effort required for final submission will be minimal.
 
 \subsection{Equations}
 
@@ -75,18 +76,18 @@ we had but time and space enough.
 
 See \cite{Abl:56}, \cite{AbTaRu:54}, \cite{Keo:58} and \cite{Pow:85}.
 
-\subsubsection{Example.} This equation goes far beyond the
-celebrated theorem ascribed to the great Pythagoras by his followers.
+% \subsubsection{Example.} This equation goes far beyond the
+% celebrated theorem ascribed to the great Pythagoras by his followers.
 
-\begin{thm}   % use the thm environment for theorems
-The square of the length of the hypotenuse of a right triangle equals
-the sum of the squares of the lengths of the other two sides.
-\end{thm}
+% \begin{thm}   % use the thm environment for theorems
+% The square of the length of the hypotenuse of a right triangle equals
+% the sum of the squares of the lengths of the other two sides.
+% \end{thm}
 
-\begin{pf}    % and the pf environment for proofs
-The square of the length of the hypotenuse of a right triangle equals the sum of the squares 
-of the lengths of the other two sides.
-\end{pf}
+% \begin{pf}    % and the pf environment for proofs
+% The square of the length of the hypotenuse of a right triangle equals the sum of the squares 
+% of the lengths of the other two sides.
+% \end{pf}
 
 %% There are a number of predefined theorem-like environments in
 %% ifacconf.cls:
@@ -107,90 +108,133 @@ capabilities.
 
 \subsection{Figures}
 
-To insert figures, use the \texttt{graphicx} package. Although other
-graphics packages can also be used, \texttt{graphicx} is simpler to
-use. See  Fig.~\ref{fig:bifurcation} for an example.
+% To insert figures, use the \texttt{graphicx} package. Although other
+% graphics packages can also be used, \texttt{graphicx} is simpler to
+% use. See  Fig.~\ref{fig:bifurcation} for an example.
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=8.4cm]{bifurcation}    % The printed column width is 8.4 cm.
-\caption{Bifurcation: Plot of local maxima of $x$ with damping $a$ decreasing} 
-\label{fig:bifurcation}
-\end{center}
-\end{figure}
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=8.4cm]{bifurcation}    % The printed column width is 8.4 cm.
+% \caption{Bifurcation: Plot of local maxima of $x$ with damping $a$ decreasing} 
+% \label{fig:bifurcation}
+% \end{center}
+% \end{figure}
 
-Figures must be centered, and have a caption at the bottom. 
+% Figures must be centered, and have a caption at the bottom. 
 
 \subsection{Tables}
-Tables must be centered and have a caption above them, numbered with
-Arabic numerals. See table~\ref{tb:margins} for an example.
+% Tables must be centered and have a caption above them, numbered with
+% Arabic numerals. See table~\ref{tb:margins} for an example.
 
-\begin{table}[hb]
-\begin{center}
-\caption{Margin settings}\label{tb:margins}
-\begin{tabular}{cccc}
-Page & Top & Bottom & Left/Right \\\hline
-First & 3.5 & 2.5 & 1.5 \\
-Rest & 2.5 & 2.5 & 1.5 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
+% \begin{table}[hb]
+% \begin{center}
+% \caption{Margin settings}\label{tb:margins}
+% \begin{tabular}{cccc}
+% Page & Top & Bottom & Left/Right \\\hline
+% First & 3.5 & 2.5 & 1.5 \\
+% Rest & 2.5 & 2.5 & 1.5 \\ \hline
+% \end{tabular}
+% \end{center}
+% \end{table}
 
-\subsection{Final Stage}
+% \subsection{Final Stage}
 
-Authors are expected to mind the margins diligently.  Papers need to
-be stamped with event data and paginated for inclusion in the
-proceedings. If your manuscript bleeds into margins, you will be
-required to resubmit and delay the proceedings preparation in the
-process.
+% Authors are expected to mind the margins diligently.  Papers need to
+% be stamped with event data and paginated for inclusion in the
+% proceedings. If your manuscript bleeds into margins, you will be
+% required to resubmit and delay the proceedings preparation in the
+% process.
 
-\subsubsection{Page margins.} See table~\ref{tb:margins} for the
-page margins specification. All dimensions are in \emph{centimeters}.
+% \subsubsection{Page margins.} See table~\ref{tb:margins} for the
+% page margins specification. All dimensions are in \emph{centimeters}.
 
 
-\subsection{PDF Creation}
+% \subsection{PDF Creation}
 
-All fonts must be embedded/subsetted in the PDF file. Use one of the
-following tools to produce a good quality PDF file:
+% All fonts must be embedded/subsetted in the PDF file. Use one of the
+% following tools to produce a good quality PDF file:
 
-\subsubsection{PDFLaTeX} is a special version of LaTeX by Han The
-Thanh which produces PDF output directly using Type-1 fonts instead of
-the standard \texttt{dvi} file. It accepts figures in JPEG, PNG, and PDF
-formats, but not PostScript. Encapsulated PostScript figures can be
-converted to PDF with the \texttt{epstopdf} tool or with Adobe Acrobat
-Distiller.
+% \subsubsection{PDFLaTeX} is a special version of LaTeX by Han The
+% Thanh which produces PDF output directly using Type-1 fonts instead of
+% the standard \texttt{dvi} file. It accepts figures in JPEG, PNG, and PDF
+% formats, but not PostScript. Encapsulated PostScript figures can be
+% converted to PDF with the \texttt{epstopdf} tool or with Adobe Acrobat
+% Distiller.
 
-\subsubsection{Generating PDF from PostScript} is the classical way of
-producing PDF files from LaTeX. The steps are:
+% \subsubsection{Generating PDF from PostScript} is the classical way of
+% producing PDF files from LaTeX. The steps are:
 
-\begin{enumerate}
-  \item Produce a \texttt{dvi} file by running \texttt{latex} twice.
-  \item Produce a PostScript (\texttt{ps}) file with \texttt{dvips}.
-  \item Produce a PDF file with \texttt{ps2pdf} or Adobe Acrobat
-  Distiller.
-\end{enumerate}
+% \begin{enumerate}
+%   \item Produce a \texttt{dvi} file by running \texttt{latex} twice.
+%   \item Produce a PostScript (\texttt{ps}) file with \texttt{dvips}.
+%   \item Produce a PDF file with \texttt{ps2pdf} or Adobe Acrobat
+%   Distiller.
+% \end{enumerate}
 
-\subsection{Copyright Form}
+% \subsection{Copyright Form}
 
-IFAC will put in place an electronic copyright transfer system in due
-course. Please \emph{do not} send copyright forms by mail or fax. More
-information on this will be made available on IFAC website.
+% IFAC will put in place an electronic copyright transfer system in due
+% course. Please \emph{do not} send copyright forms by mail or fax. More
+% information on this will be made available on IFAC website.
 
-\section{Data Acquisition and Preprocessing}
+\section{Data Acquisition, temperature approximation and Preprocessing}
 - Kinova Gen3 7 DoF Robot \\
 - OPC UA Server and Client (data: pos, temp, torques, velocities and current), create Figure\\
 - randomly generated (restrcited) joint angles/trajectories \\
 - (reference to streamlit app?)\\
-- Fit function with collected data? \\
-- description of data preprocessing for LSTM and FF
+- Fit function with collected data - guassian2 function? \\
+- description of data preprocessing for LSTM and FF\\
+The following section describes the data acquisition, the temperature curve approximation and the data preprocessing for the neural networks.
 
-\begin{figure}
+\begin{figure*}
   \begin{center}
-  \includegraphics[width=8.4cm]{pictures/DataAquisition.pdf}    % The printed column width is 8.4 cm.
-  \caption{Kinova data aquisition via OPC UA Server} 
-  \label{fig:DataAquisition}
+    \includegraphics[width=\textwidth]{pictures/DataAquisition.drawio.pdf} 
+    \caption{Kinova data acquisition via OPC UA Server} 
+    \label{fig:DataAquisition}
   \end{center}
-  \end{figure}
+\end{figure*}
+
+\subsection{Data aquisition}
+The data of a Kinova Gen3 7 degrees of freedom ultra-lightweight robtic arm [kinova], was recorded using a specially developed OPC Unified Architecture server [OPC UA, Girke]. 
+Positions, temperatures, torques, velocities and currents of each of the seven joints are stored, via a client application, as parameters in CSV files and subsequently processed for the neural network trainings, see Fig.~\ref{fig:DataAquisition}.
+To cover a wide range of robotic movement, both randomly generated joint angle trajectories and selected Cartesian trajectories for pick and place tasks, for example, were generated. 
+The trajectories were initially performed at varying speeds and with different payloads. The duration of each movement was also varied in order to analyze the temperature rise and the cooling behaviour of the joints. 
+For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load on the joints. 
+To prevent collisions due to randomly generated joint angles, the random angular values were constrained within minimum and maximum limits. 
+The result of this experiment indicate that joint 2 and joint 4 experience the most temperature increase and cooling. The data is freely available on our web app [pics and/or link to app with footnote? further explanation of the web app?], 
+which automatically visualizes the CSV files and displays the specific joint data.\footnote{https://irolabkinova.streamlit.app}  
+For this reason, the focus was first placed on the 4th joint, while all other joints were fixed at 0°. Only the 4th joint was actuated with randomly generated values between two varying minimum and maximum angle limits (for example -90° and +90°).
+
+\subsection{Temperature approximation, ONLY AN EXAMPLE MIGHT NOT INCLUDE?}
+The temperature curve can be represented approximately with a Gaussian model (Gauss2) as shown in Fig.~\ref{fig:Gauss2_legend} and (\ref{eq:gauss2}):
+%fit function temperature with 2_KinovaLog_300_120_45_90_weight_API.csv (should take another example to compare)
+\begin{equation} \label{eq:gauss2}
+  \begin{array}{l}
+  f(x) = a_1 \cdot \exp\left( -\left( \frac{x - b_1}{c_1} \right)^2 \right) \\
+  \quad + a_2 \cdot \exp\left( -\left( \frac{x - b_2}{c_2} \right)^2 \right)
+  \end{array}
+  \end{equation}
+With the coefficients for Fig.~\ref{fig:Gauss2_legend}:
+\[
+a_1 = 34.07, \quad b_1 = 276 
+\]
+
+\[
+c_1 = 743.2, \quad a_2 = 1.668 
+\]
+
+\[
+b_2 = -26.71, \quad c_2 = 103
+\]
+\begin{figure}{htbp}
+  \begin{center}
+  \includegraphics[width=8.4cm]{pictures/Gauss2_legend.png}    % The printed column width is 8.4 cm.
+  \caption{Approximation of the temperature curve of the 4th joint with the Gauss2 function} 
+  \label{fig:Gauss2_legend}
+  \end{center}
+\end{figure}
+
+
 
 
 % \section{Units}
@@ -217,79 +261,79 @@ information on this will be made available on IFAC website.
 
 \subsection{Figures and Tables}
 
-Figure axis labels are often a source of confusion. Use words rather
-than symbols. As an example, write the quantity ``Magnetization'', or
-``Magnetization M'', not just ``M''. Put units in parentheses. Do not
-label axes only with units.  For example, write ``Magnetization
-($\mathrm{A}/\mathrm{m}$)'' or ``Magnetization ($\mathrm{A} \mathrm{m}^{-1}$)'', not just
- ``$\mathrm{A}/\mathrm{m}$''. Do not
-label axes with a ratio of quantities and units. For example, write
-``Temperature ($\mathrm{K}$)'', not ``$\mbox{Temperature}/\mathrm{K}$''.
+% Figure axis labels are often a source of confusion. Use words rather
+% than symbols. As an example, write the quantity ``Magnetization'', or
+% ``Magnetization M'', not just ``M''. Put units in parentheses. Do not
+% label axes only with units.  For example, write ``Magnetization
+% ($\mathrm{A}/\mathrm{m}$)'' or ``Magnetization ($\mathrm{A} \mathrm{m}^{-1}$)'', not just
+%  ``$\mathrm{A}/\mathrm{m}$''. Do not
+% label axes with a ratio of quantities and units. For example, write
+% ``Temperature ($\mathrm{K}$)'', not ``$\mbox{Temperature}/\mathrm{K}$''.
 
-Multipliers can be especially confusing. Write ``Magnetization
-($\mathrm{kA}/\mathrm{m}$)'' or ``Magnetization ($10^3 \mathrm{A}/\mathrm{m}$)''. Do not write
-``Magnetization $(\mathrm{A}/\mathrm{m}) \times 1000$'' because the reader would not know
-whether the axis label means $16000\,\mathrm{A}/\mathrm{m}$ or $0.016\,\mathrm{A}/\mathrm{m}$.
+% Multipliers can be especially confusing. Write ``Magnetization
+% ($\mathrm{kA}/\mathrm{m}$)'' or ``Magnetization ($10^3 \mathrm{A}/\mathrm{m}$)''. Do not write
+% ``Magnetization $(\mathrm{A}/\mathrm{m}) \times 1000$'' because the reader would not know
+% whether the axis label means $16000\,\mathrm{A}/\mathrm{m}$ or $0.016\,\mathrm{A}/\mathrm{m}$.
 
-\subsection{References}
+% \subsection{References}
 
-Use Harvard style references (see at the end of this document). With
-\LaTeX, you can process an external bibliography database 
-using \texttt{bibtex},\footnote{In this case you will also need the \texttt{ifacconf.bst}
-file, which is part of the \texttt{ifaconf} package.}
-or insert it directly into the reference section. Footnotes should be avoided as
-far as possible.  Please note that the references at the end of this
-document are in the preferred referencing style. Papers that have not
-been published should be cited as ``unpublished''.  Capitalize only the
-first word in a paper title, except for proper nouns and element
-symbols.
+% Use Harvard style references (see at the end of this document). With
+% \LaTeX, you can process an external bibliography database 
+% using \texttt{bibtex},\footnote{In this case you will also need the \texttt{ifacconf.bst}
+% file, which is part of the \texttt{ifaconf} package.}
+% or insert it directly into the reference section. Footnotes should be avoided as
+% far as possible.  Please note that the references at the end of this
+% document are in the preferred referencing style. Papers that have not
+% been published should be cited as ``unpublished''.  Capitalize only the
+% first word in a paper title, except for proper nouns and element
+% symbols.
 
-\subsection{Abbreviations and Acronyms}
+% \subsection{Abbreviations and Acronyms}
 
-Define abbreviations and acronyms the first time they are used in the
-text, even after they have already been defined in the
-abstract. Abbreviations such as IFAC, SI, ac, and dc do not have to be
-defined. Abbreviations that incorporate periods should not have
-spaces: write ``C.N.R.S.'', not ``C. N. R. S.'' Do not use abbreviations
-in the title unless they are unavoidable (for example, ``IFAC'' in the
-title of this article).
+% Define abbreviations and acronyms the first time they are used in the
+% text, even after they have already been defined in the
+% abstract. Abbreviations such as IFAC, SI, ac, and dc do not have to be
+% defined. Abbreviations that incorporate periods should not have
+% spaces: write ``C.N.R.S.'', not ``C. N. R. S.'' Do not use abbreviations
+% in the title unless they are unavoidable (for example, ``IFAC'' in the
+% title of this article).
 
-\subsection{Equations}
+% \subsection{Equations}
 
-Number equations consecutively with equation numbers in parentheses
-flush with the right margin, as in (\ref{eq:sample}).  To make your equations more
-compact, you may use the solidus ($/$), the $\exp$ function, or
-appropriate exponents. Use parentheses to avoid ambiguities in
-denominators. Punctuate equations when they are part of a sentence, as
-in
+% Number equations consecutively with equation numbers in parentheses
+% flush with the right margin, as in (\ref{eq:sample}).  To make your equations more
+% compact, you may use the solidus ($/$), the $\exp$ function, or
+% appropriate exponents. Use parentheses to avoid ambiguities in
+% denominators. Punctuate equations when they are part of a sentence, as
+% in
 
-\begin{equation} \label{eq:sample2}
-\begin{array}{ll}
-\int_0^{r_2} & F (r, \varphi ) dr d\varphi = [\sigma r_2 / (2 \mu_0 )] \\
-& \cdot \int_0^{\inf} exp(-\lambda |z_j - z_i |) \lambda^{-1} J_1 (\lambda  r_2 ) J_0 (\lambda r_i ) d\lambda 
-\end{array}
-\end{equation}
+% \begin{equation} \label{eq:sample2}
+% \begin{array}{ll}
+% \int_0^{r_2} & F (r, \varphi ) dr d\varphi = [\sigma r_2 / (2 \mu_0 )] \\
+% & \cdot \int_0^{\inf} exp(-\lambda |z_j - z_i |) \lambda^{-1} J_1 (\lambda  r_2 ) J_0 (\lambda r_i ) d\lambda 
+% \end{array}
+% \end{equation}
 
-Be sure that the symbols in your equation have been defined before the
-equation appears or immediately following. Italicize symbols ($T$
-might refer to temperature, but T is the unit tesla). Refer to
-``(\ref{eq:sample})'', not ``Eq. (\ref{eq:sample})'' or ``equation
-(\ref{eq:sample})'', except at the beginning of a sentence: ``Equation
-(\ref{eq:sample}) is \ldots''.
+% Be sure that the symbols in your equation have been defined before the
+% equation appears or immediately following. Italicize symbols ($T$
+% might refer to temperature, but T is the unit tesla). Refer to
+% ``(\ref{eq:sample})'', not ``Eq. (\ref{eq:sample})'' or ``equation
+% (\ref{eq:sample})'', except at the beginning of a sentence: ``Equation
+% (\ref{eq:sample}) is \ldots''.
 
-\subsection{Other Recommendations}
+% \subsection{Other Recommendations}
 
-Use one space after periods and colons. Hyphenate complex modifiers:
-``zero-field-cooled magnetization''. Avoid dangling participles, such
-as, ``Using (1), the potential was calculated'' (it is not clear who or
-what used (1)). Write instead: ``The potential was calculated by using
-(1)'', or ``Using (1), we calculated the potential''.
+% Use one space after periods and colons. Hyphenate complex modifiers:
+% ``zero-field-cooled magnetization''. Avoid dangling participles, such
+% as, ``Using (1), the potential was calculated'' (it is not clear who or
+% what used (1)). Write instead: ``The potential was calculated by using
+% (1)'', or ``Using (1), we calculated the potential''.
 
-A parenthetical statement at the end of a sentence is punctuated
-outside of the closing parenthesis (like this). (A parenthetical
-sentence is punctuated within the parentheses.) Avoid contractions;
-for example, write ``do not'' instead of ``don' t''. The serial comma
-is preferred: ``A, B, and C'' instead of ``A, B and C''.
+% A parenthetical statement at the end of a sentence is punctuated
+% outside of the closing parenthesis (like this). (A parenthetical
+% sentence is punctuated within the parentheses.) Avoid contractions;
+% for example, write ``do not'' instead of ``don' t''. The serial comma
+% is preferred: ``A, B, and C'' instead of ``A, B and C''.
 \section{Discussion?}
 ?
 \section{Conclusion}
