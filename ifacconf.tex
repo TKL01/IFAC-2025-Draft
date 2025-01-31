@@ -30,7 +30,7 @@ Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany (e-ma
 %    Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
 
 \begin{abstract}                % Abstract of not more than 250 
-	In this work, deep neural networks made up of multiple hidden Long Short-Term Memory (LSTM) and Feed Forward layers are trained to predict the  thermal behavior of the joint motors of robot manipulators. A model-free approach is adopted. It allows for the accommodation of  complexity and uncertainty challenges that might compromise the identification and validation of a usually large number of  parameters of an approximation model hardly available. By contrast, sensed joint torques are  collected  and processed using the machine learning approach to foresee the thermal behavior of joint motors. Prediction results related to the thermal dynamics of joint motors of a redundant robot with seven joints are presented. 
+	In this work, deep neural networks made up of multiple hidden Long Short-Term Memory (LSTM) and Feed Forward layers are trained to predict the  thermal behavior of the joint motors of robot manipulators. A model-free approach  is adopted. It allows for the accommodation of  complexity and uncertainty challenges that might compromise the derivation, identification, and validation of a large number of  parameters of an approximation model that is hardly available. To this end, sensed joint torques are  collected  and processed  to foresee the thermal behavior of joint motors. Prediction results of the machine learning based capture of the temperature dynamics of joint motors of a redundant robot with seven joints are presented. 
 \end{abstract}
 
 \begin{keyword}
@@ -41,14 +41,11 @@ Robotics, Thermal Management, Artificial Intelligence $\slash$ Machine Learning.
 %===============================================================================
 
 \section{Introduction}
-This document is a template for \LaTeXe. If you are reading a paper or
-PDF version of this document, please download the electronic file
-\texttt{ifacconf.tex}. You will also need the class file
-\texttt{ifacconf.cls}.
+Robot are used to achieve repetitive tasks and assist humans in many applications. Large joint accelerations, high payload manipulation, and specific configurations belong to those factors that can induced an overheating of their joint motors. Excessive motor temperature might jeopardize the 
 
-Please stick to the format defined by the \texttt{ifacconf} class, and do not change the margins or the general layout of the paper. It is especially important that you do not put any running header/footer or page number in the submitted paper.\footnote{
-This is the default for the provided class file.}
-Use \emph{italics} for emphasis; do not underline.
+Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in function to shut down the robot one a critical temperature threshold is attained. Whereas this approx helps prevent a deterioration of the motor, it is likely to compromise the robot availability for production purposes. Furthermore, thermal burns in physical human -robot-interaction not only represents a sever safety issue but also the user experience necessary to engage a symbiotic interaction.
+
+It is therefore important to address motor overheating to sustain the availability,  prolong the lifetime, and 
 
 \section{Background/Related Works/State of the art}
 
