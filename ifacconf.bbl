@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -18,14 +18,162 @@ Able, B., Tagg, R., and Rush, M. (1954).
 \newblock In A.~Round (ed.), \emph{Advances in Enzymology}, volume~2, 125--247.
   Academic Press, New York, 3rd edition.
 
+\bibitem[{Abt et~al.(2025)Abt, Harmann, and Kaigom}]{abt}
+Abt, P., Harmann, R., and Kaigom, E.G. (2025).
+\newblock Manipulability optimization and thermal control of industrial robots
+  in real-time using digital twins, augmented reality, and opc ua.
+\newblock \emph{2025 IEEE/SICE International Symposium on System Integration
+  (SII), Munich, Germany.}
+
+\bibitem[{Afaq et~al.(2023)Afaq, Jebelli, and Ahmad}]{afaq2023intelligent}
+Afaq, M., Jebelli, A., and Ahmad, R. (2023).
+\newblock An intelligent thermal management fuzzy logic control system design
+  and analysis using ansys fluent for a mobile robotic platform in extreme
+  weather applications.
+\newblock \emph{Journal of Intelligent \& Robotic Systems}, 107(1), 11.
+
+\bibitem[{Basha(2025)}]{basha2025robotic}
+Basha, A.J. (2025).
+\newblock Robotic companions in healthcare: Investigate the role of humanoid
+  robots in augmenting patient well-being.
+
+\bibitem[{Cai et~al.(2021)Cai, Cen, Cen, Yao, Zhao, and
+  Zhang}]{cai2021temperature}
+Cai, Y., Cen, Y., Cen, G., Yao, X., Zhao, C., and Zhang, Y. (2021).
+\newblock Temperature prediction of pmsms using pseudo-siamese nested lstm.
+\newblock \emph{World Electric Vehicle Journal}, 12(2), 57.
+
+\bibitem[{Carayannis et~al.(2024)Carayannis, Posselt, and
+  Preissler}]{carayannis2024toward}
+Carayannis, E.G., Posselt, T., and Preissler, S. (2024).
+\newblock Toward industry 6.0 and society 6.0: The quintuple innovation helix
+  with embedded ai modalities as enabler of public interest technologies
+  strategic technology management and road-mapping.
+\newblock \emph{IEEE Transactions on Engineering Management}.
+
+\bibitem[{Chen et~al.(2024)Chen, Zhang, Li, Gao, Wang, and
+  Zhang}]{chen2024lifetime}
+Chen, M., Zhang, B., Li, H., Gao, X., Wang, J., and Zhang, J. (2024).
+\newblock Lifetime prediction of permanent magnet synchronous motor in
+  selective compliance assembly robot arm considering insulation thermal aging.
+\newblock \emph{Sensors}, 24(12), 3747.
+
+\bibitem[{de~Hoyos Fern{\'a}ndez~de C{\'o}rdova et~al.(2024)de~Hoyos
+  Fern{\'a}ndez~de C{\'o}rdova, Olazagoitia, and Gij{\'o}n-Rivera}]{de2024non}
+de~Hoyos Fern{\'a}ndez~de C{\'o}rdova, A., Olazagoitia, J.L., and
+  Gij{\'o}n-Rivera, C. (2024).
+\newblock Non-invasive identification of vehicle suspension parameters: A
+  methodology based on synthetic data analysis.
+\newblock \emph{Mathematics}, 12(3), 397.
+
+\bibitem[{Gkiolnta et~al.(2025)Gkiolnta, Roy, and
+  Fragulis}]{gkiolnta2025challenges}
+Gkiolnta, E., Roy, D., and Fragulis, G.F. (2025).
+\newblock Challenges and ethical considerations in implementing assistive
+  technologies in healthcare.
+\newblock \emph{Technologies}, 13(2), 48.
+
+\bibitem[{He et~al.(2024)He, Feng, Yan, and Cai}]{he2024rotor}
+He, L., Feng, Y., Yan, Z., and Cai, M. (2024).
+\newblock Rotor temperature prediction of pmsm based on lstm neural networks.
+\newblock \emph{Arabian Journal for Science and Engineering}, 1--12.
+
+\bibitem[{Jorgensen et~al.(2019)Jorgensen, Holley, Mathis, Mehling, and
+  Sentis}]{jorgensen2019thermal}
+Jorgensen, S.J., Holley, J., Mathis, F., Mehling, J.S., and Sentis, L. (2019).
+\newblock Thermal recovery of multi-limbed robots with electric actuators.
+\newblock \emph{IEEE Robotics and Automation Letters}, 4(2), 1077--1084.
+
+\bibitem[{Kaigom(2023)}]{kaigom2023metarobotics}
+Kaigom, E.G. (2023).
+\newblock Metarobotics for industry and society: Vision, technologies, and
+  opportunities.
+\newblock \emph{IEEE Transactions on Industrial Informatics}.
+
+\bibitem[{Kaigom and Ro{\ss}mann(2020)}]{kaigom2020value}
+Kaigom, E.G. and Ro{\ss}mann, J. (2020).
+\newblock Value-driven robotic digital twins in cyber--physical applications.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 17(5),
+  3609--3619.
+
+\bibitem[{Kawaharazuka et~al.(2020)Kawaharazuka, Hiraoka, Tsuzuki, Onitsuka,
+  Asano, Okada, Kawasaki, and Inaba}]{kawaharazuka2020estimation}
+Kawaharazuka, K., Hiraoka, N., Tsuzuki, K., Onitsuka, M., Asano, Y., Okada, K.,
+  Kawasaki, K., and Inaba, M. (2020).
+\newblock Estimation and control of motor core temperature with online learning
+  of thermal model parameters: Application to musculoskeletal humanoids.
+\newblock \emph{IEEE Robotics and Automation Letters}, 5(3), 4273--4280.
+
 \bibitem[{Keohane(1958)}]{Keo:58}
 Keohane, R. (1958).
 \newblock \emph{Power and Interdependence: World Politics in Transitions}.
 \newblock Little, Brown \& Co., Boston.
 
+\bibitem[{Kim et~al.(2025)Kim, Lee, Maldonado-Contreras, Zhou, Herrin, and
+  Young}]{kim2025mode}
+Kim, H., Lee, D., Maldonado-Contreras, J.Y., Zhou, S., Herrin, K.R., and Young,
+  A.J. (2025).
+\newblock Mode-unified intent estimation of a robotic prosthesis using
+  deep-learning.
+\newblock \emph{IEEE Robotics and Automation Letters}.
+
 \bibitem[{Powers(1985)}]{Pow:85}
 Powers, T. (1985).
 \newblock Is there a way out?
 \newblock \emph{Harpers}, 35--47.
+
+\bibitem[{Shang et~al.(2024)Shang, Yang, and You}]{shang2024general}
+Shang, C., Yang, M., and You, J. (2024).
+\newblock A general parallel disturbance controller for pmsm drives based on
+  frequency domain design.
+\newblock \emph{IEEE Transactions on Industrial Electronics}.
+
+\bibitem[{Sigron et~al.(2023)Sigron, Aschwanden, and
+  Bambach}]{sigron2023compensation}
+Sigron, P., Aschwanden, I., and Bambach, M. (2023).
+\newblock Compensation of geometric, backlash, and thermal drift errors using a
+  universal industrial robot model.
+\newblock \emph{IEEE Transactions on Automation Science and Engineering}.
+
+\bibitem[{Singh et~al.(2021)Singh, Kashiri, and Tsagarakis}]{singh2021thermal}
+Singh, A., Kashiri, N., and Tsagarakis, N. (2021).
+\newblock Thermal control for peak operation of electric robotic actuators.
+\newblock In \emph{2021 20th International Conference on Advanced Robotics
+  (ICAR)}, 763--770. IEEE.
+
+\bibitem[{Soga et~al.(2024)Soga, Hanai, Hirogaki, and
+  Aoyama}]{soga2024skillful}
+Soga, T., Hanai, H., Hirogaki, T., and Aoyama, E. (2024).
+\newblock Skillful operation of working plate for grasp less ball handling with
+  an industrial dual-arm robot considering temperature of joint motors.
+\newblock \emph{International Journal of Modeling and Optimization}, 14(4).
+
+\bibitem[{Trinh et~al.(2023)Trinh, Yadav, Schwiedernoch, Gr{\"u}ndel, Petrovic,
+  and Brecher}]{trinh2023modeling}
+Trinh, M., Yadav, R., Schwiedernoch, R., Gr{\"u}ndel, L., Petrovic, O., and
+  Brecher, C. (2023).
+\newblock Modeling of temperature-dependent joint friction in industrial robots
+  using neural networks.
+\newblock In \emph{2023 Seventh IEEE International Conference on Robotic
+  Computing (IRC)}, 206--213. IEEE.
+
+\bibitem[{Tsui et~al.(2025)Tsui, Baggett, and Chiang}]{tsui2025exploring}
+Tsui, K.M., Baggett, R., and Chiang, C. (2025).
+\newblock Exploring embodiment form factors of a home-helper robot:
+  Perspectives from care receivers and caregivers.
+\newblock \emph{Applied Sciences}, 15(2), 891.
+
+\bibitem[{Yehorov et~al.(2025)Yehorov, Duniev, Masliennikov, Gouws,
+  Dobzhanskyi, and Stamann}]{yehorov2025study}
+Yehorov, A., Duniev, O., Masliennikov, A., Gouws, R., Dobzhanskyi, O., and
+  Stamann, M. (2025).
+\newblock Study on the thermal state of a transverse-flux motor.
+\newblock \emph{IEEE Access}.
+
+\bibitem[{Zhang et~al.(2024)Zhang, Cao, and Zhang}]{zhang2024model}
+Zhang, X., Cao, Y., and Zhang, C. (2024).
+\newblock Model predictive voltage control for pmsm system with low parameter
+  sensitivity.
+\newblock \emph{IEEE Transactions on Industrial Electronics}.
 
 \end{thebibliography}
