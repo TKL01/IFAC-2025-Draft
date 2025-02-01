@@ -11,7 +11,7 @@
 \begin{document}
 \begin{frontmatter}
 
-\title{Model-Free Prediction of  Thermal States of Robot Joint Motors Using Deep Learning} 
+\title{Deep Learning for Model-Free Prediction of  Thermal States of Robot Joint Motors} 
 % Title, preferably not more than 10 words.
 
 %\thanks[footnoteinfo]{Sponsor and financial support acknowledgment
@@ -30,7 +30,7 @@ Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany (e-ma
 %    Seoul National University, Seoul, Korea, (e-mail: author@snu.ac.kr)}
 
 \begin{abstract}                % Abstract of not more than 250 
-	In this work, deep neural networks made up of multiple hidden Long Short-Term Memory (LSTM) and Feed Forward layers are trained to predict the  thermal behavior of the joint motors of robot manipulators. A model-free approach  is adopted. It allows for the accommodation of  complexity and uncertainty challenges that might compromise the derivation, identification, and validation of a large number of  parameters of an approximation model that is hardly available. To this end, sensed joint torques are  collected  and processed  to foresee the thermal behavior of joint motors. Prediction results of the machine learning based capture of the temperature dynamics of joint motors of a redundant robot with seven joints are presented. 
+	In this work, deep neural networks made up of multiple hidden Long Short-Term Memory (LSTM) and Feed Forward layers are trained to predict the  thermal behavior of the joint motors of robot manipulators. A model-free approach  is adopted. It allows for the accommodation of  complexity and uncertainty challenges that might compromise the derivation, identification, and validation of a large number of  parameters of an approximation model that is hardly available. To this end, sensed joint torques are  collected  and processed  to foresee the thermal behavior of joint motors. Promising prediction results of the machine learning based capture of the temperature dynamics of joint motors of a redundant robot with seven joints are presented. 
 \end{abstract}
 
 \begin{keyword}
@@ -53,7 +53,7 @@ Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in fun
 	\label{fig:intro}
 \end{figure}
 
-Predicting the thermal behavior of robot joints is an essential step toward the development of countermeasures that help anticipate overheating, preserve the robot availability,  prolong its lifetime, and improve its usability. The Industry 4.0, Industry 5.0,  Society 5.0, and Society 6.0 realms are likely to benefit from this capability. This is because it propels operational efficiency through intelligent thermal management of the robot for availability purposes. It also supports decent and sustainable haptic working conditions for the workforce, as well as human-centered robotized servicing for comfortable smart living and social well-being in different ecosystems. Meeting such goals requires an approach that can turn robot diversity and application uncertainties into competitive advantages in terms of flexibility, insights, transferability and scalability.
+Predicting the thermal behavior of robot joints is an essential step toward the development of countermeasures that help anticipate overheating, preserve the robot availability,  prolong its lifetime, and improve its usability. The Industry 4.0, Industry 5.0,  Society 5.0, and Society 6.0 realms are likely to benefit from this capability. This is because it propels operational efficiency through intelligent thermal management of the robot for availability purposes. It also supports decent and sustainable haptic working conditions for the workforce, as well as human-centered robotized servicing for comfortable smart living and social well-being in different ecosystems. Meeting such goals requires an approach that can turn robot diversity and application uncertainties into competitive advantages in terms of flexibility, insights, transferability, and scalability.
 
 This work predicts  the thermal behavior of joint motors of robots with the following key contributions. The prediction approach is
 \begin{itemize}
