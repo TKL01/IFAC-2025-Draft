@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.1.24)  3 FEB 2025 05:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 16:58
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/student/IFAC-2025-Draft/ifacconf.tex
-(/home/student/IFAC-2025-Draft/ifacconf.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21> (./ifacconf.cls
+**./ifacconf.tex
+(ifacconf.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04> (ifacconf.cls
 Document Class: ifacconf 2008/04/14, 3.2ModD: IFAC conferences
 
 \@frontmatterwidth=\dimen138
@@ -34,18 +33,21 @@ Document Class: ifacconf 2008/04/14, 3.2ModD: IFAC conferences
 \c@subsubsection=\count188
 \c@paragraph=\count189
 \c@subparagraph=\count190
-(/usr/share/texlive/texmf-dist/tex/latex/tools/theorem.sty
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/tools\theorem.sty
 Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
 \theorem@style=\toks16
 \theorem@bodyfont=\toks17
 \theorempreskipamount=\skip50
 \theorempostskipamount=\skip51
- (/usr/share/texlive/texmf-dist/tex/latex/tools/thp.sty
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/tools\thp.sty
 File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/newlfont.sty
+))
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/base\newlfont.sty
 Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
 LaTeX Info: Redefining \em on input line 57.
- (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -79,26 +81,28 @@ LaTeX Info: Redefining \sc on input line 601.
 \sv@hyphenpenalty=\count272
 \prev@elem=\count273
 \cur@elem=\count274
-\fm@box=\box50
+\fm@box=\box51
 \fm@size=\dimen155
-\t@abstract=\box51
-\t@keyword=\box52
+\t@abstract=\box52
+\t@keyword=\box53
 \rep@mod=\count275
 \t@xtheight=\dimen156
 \@logoheight=\dimen157
 \@pubyear=\count276
 \c@firstpage=\count277
 \c@lastpage=\count278
-\slashbox=\box53
+\slashbox=\box54
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1506.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1506.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 1506.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
+06.
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-\Slashbox=\box54
+\Slashbox=\box55
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1507.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -106,48 +110,60 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1507.
 \@frontindent=\dimen158
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
-) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+) (C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count279
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen161
-\captionmargin@=\dimen162
-\captionwidth=\dimen163
-\caption@tempdima=\dimen164
-\caption@indent=\dimen165
-\caption@parindent=\dimen166
-\caption@hangindent=\dimen167
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = macro:->\@makefigurecaption  on input line 1139.
+Package caption Info: \@makecaption = macro:->\@makefigurecaption  on input lin
+e 1176.
 )
 
 Package caption Warning: Unknown document class (or package),
@@ -159,14 +175,16 @@ See the caption package documentation for explanation.
 )
 \c@subfigure=\count282
 \c@subtable=\count283
-) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box55
-) (./ifacconf.aux)
+\l__pdf_internal_box=\box56
+) (ifacconf.aux)
 \openout1 = `ifacconf.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -183,24 +201,31 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count285
-\scratchdimen=\dimen168
-\scratchbox=\box56
+\scratchdimen=\dimen169
+\scratchbox=\box57
 \nofMPsegments=\count286
 \nofMParguments=\count287
 \everyMPshowfont=\toks21
 \MPscratchCnt=\count288
-\MPscratchDim=\dimen169
+\MPscratchDim=\dimen170
 \MPnumerator=\count289
 \makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks22
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -215,260 +240,193 @@ File: pictures/intro.png Graphic file (type png)
 <use pictures/intro.png>
 Package pdftex.def Info: pictures/intro.png  used on input line 53.
 (pdftex.def)             Requested size: 244.25298pt x 153.74628pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{C:/Users/Kaigom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./pictures/intro.png>]
 
-pdfTeX warning: pdflatex (file ./pictures/DataAquisition.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/DataAquisition.drawio.pdf, id=16, 737.8767pt x 228.855pt>
+pdfTeX warning: pdflatex.exe (file ./pictures/DataAquisition.drawio.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/DataAquisition.drawio.pdf, id=14, 737.8767pt x 228.855pt>
 File: pictures/DataAquisition.drawio.pdf Graphic file (type pdf)
 <use pictures/DataAquisition.drawio.pdf>
-Package pdftex.def Info: pictures/DataAquisition.drawio.pdf  used on input line 83.
+Package pdftex.def Info: pictures/DataAquisition.drawio.pdf  used on input line
+ 83.
 (pdftex.def)             Requested size: 517.84015pt x 160.62343pt.
 [2]
-<pictures/Gauss2_legend.png, id=20, 420.95412pt x 315.90186pt>
+<pictures/Gauss2_legend.png, id=19, 420.95412pt x 315.90186pt>
 File: pictures/Gauss2_legend.png Graphic file (type png)
 <use pictures/Gauss2_legend.png>
 Package pdftex.def Info: pictures/Gauss2_legend.png  used on input line 127.
 (pdftex.def)             Requested size: 239.00298pt x 179.36217pt.
-
-Overfull \hbox (34.16672pt too wide) in paragraph at lines 148--148
- []\OT1/cmr/m/n/10 Table 1. 
- []
-
-
-Overfull \hbox (23.88893pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 Com- 
- []
-
-
-Overfull \hbox (17.80559pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 par- 
- []
-
-
-Overfull \hbox (6.11111pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 i- 
- []
-
-
-Overfull \hbox (14.50003pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 son 
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 of 
- []
-
-
-Overfull \hbox (23.47224pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 Feed- 
- []
-
-
-Overfull \hbox (15.30559pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 for- 
- []
-
-
-Overfull \hbox (21.4167pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 ward 
- []
-
-
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 and 
- []
-
-
-Overfull \hbox (28.1945pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 LSTM 
- []
-
-
-Overfull \hbox (18.88892pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 neu- 
- []
-
-
-Overfull \hbox (11.69447pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 ral 
- []
-
-
-Overfull \hbox (17.22224pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 net- 
- []
-
-
-Overfull \hbox (25.08337pt too wide) in paragraph at lines 148--148
- \OT1/cmr/m/n/10 works  
- []
-
-[3 <./pictures/DataAquisition.drawio.pdf> <./pictures/Gauss2_legend.png (PNG copy)>]
-Overfull \hbox (34.16672pt too wide) in paragraph at lines 190--190
- []\OT1/cmr/m/n/10 Table 2. 
- []
-
-
-Overfull \hbox (21.4167pt too wide) in paragraph at lines 190--190
- \OT1/cmr/m/n/10 Mar- 
- []
-
-
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 190--190
- \OT1/cmr/m/n/10 gin 
- []
-
-
-Overfull \hbox (15.61111pt too wide) in paragraph at lines 190--190
- \OT1/cmr/m/n/10 set- 
- []
-
-
-Overfull \hbox (21.16672pt too wide) in paragraph at lines 190--190
- \OT1/cmr/m/n/10 tings  
- []
-
-<./pictures/applications/T2.png, id=45, 1445.4pt x 787.44188pt>
+ [3 <./pictures/DataAquisition.drawio.pdf> <./pictures/Gauss2_legend.png (PNG c
+opy)>]
+<./pictures/applications/T2.png, id=44, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/T2.png Graphic file (type png)
 <use ./pictures/applications/T2.png>
-Package pdftex.def Info: ./pictures/applications/T2.png  used on input line 215.
+Package pdftex.def Info: ./pictures/applications/T2.png  used on input line 228
+.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 215--216
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 228--229
  [][] 
  []
 
-<./pictures/applications/T4.png, id=46, 1445.4pt x 787.44188pt>
+<./pictures/applications/T4.png, id=45, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/T4.png Graphic file (type png)
 <use ./pictures/applications/T4.png>
-Package pdftex.def Info: ./pictures/applications/T4.png  used on input line 221.
+Package pdftex.def Info: ./pictures/applications/T4.png  used on input line 234
+.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 221--222
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
-<./pictures/applications/Unormalized.png, id=47, 1445.4pt x 787.44188pt>
+<./pictures/applications/Unormalized.png, id=46, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/Unormalized.png Graphic file (type png)
 <use ./pictures/applications/Unormalized.png>
-Package pdftex.def Info: ./pictures/applications/Unormalized.png  used on input line 231.
+Package pdftex.def Info: ./pictures/applications/Unormalized.png  used on input
+ line 245.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 231--232
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 245--246
  [][] 
  []
 
-<./pictures/applications/Normalized.png, id=48, 1445.4pt x 787.44188pt>
+<./pictures/applications/Normalized.png, id=47, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/Normalized.png Graphic file (type png)
 <use ./pictures/applications/Normalized.png>
-Package pdftex.def Info: ./pictures/applications/Normalized.png  used on input line 237.
+Package pdftex.def Info: ./pictures/applications/Normalized.png  used on input 
+line 251.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 237--238
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
-<./pictures/applications/J1o.png, id=49, 895.84688pt x 689.57625pt>
+<./pictures/applications/J1o.png, id=48, 895.84688pt x 689.57625pt>
 File: ./pictures/applications/J1o.png Graphic file (type png)
 <use ./pictures/applications/J1o.png>
-Package pdftex.def Info: ./pictures/applications/J1o.png  used on input line 250.
+Package pdftex.def Info: ./pictures/applications/J1o.png  used on input line 26
+5.
 (pdftex.def)             Requested size: 187.77798pt x 144.54pt.
-<./pictures/applications/J2o.png, id=50, 943.27406pt x 689.57625pt>
+<./pictures/applications/J2o.png, id=49, 943.27406pt x 689.57625pt>
 File: ./pictures/applications/J2o.png Graphic file (type png)
 <use ./pictures/applications/J2o.png>
-Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 256.
+Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 27
+1.
 (pdftex.def)             Requested size: 197.71918pt x 144.54pt.
-<./pictures/applications/J3o.png, id=51, 1445.4pt x 787.44188pt>
+<./pictures/applications/J3o.png, id=50, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J3o.png Graphic file (type png)
 <use ./pictures/applications/J3o.png>
-Package pdftex.def Info: ./pictures/applications/J3o.png  used on input line 261.
+Package pdftex.def Info: ./pictures/applications/J3o.png  used on input line 27
+6.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 261--262
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 276--277
 [][] 
  []
 
-<./pictures/applications/J4o.png, id=52, 1445.4pt x 787.44188pt>
+<./pictures/applications/J4o.png, id=51, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J4o.png Graphic file (type png)
 <use ./pictures/applications/J4o.png>
-Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 267.
+Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 28
+2.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 267--268
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 282--283
 [][] 
  []
 
-<./pictures/applications/J5o.png, id=53, 1445.4pt x 787.44188pt>
+<./pictures/applications/J5o.png, id=52, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J5o.png Graphic file (type png)
 <use ./pictures/applications/J5o.png>
-Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 272.
+Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 28
+7.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 272--273
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 287--288
 [][] 
  []
 
-<./pictures/applications/J6o.png, id=54, 1445.4pt x 787.44188pt>
+<./pictures/applications/J6o.png, id=53, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J6o.png Graphic file (type png)
 <use ./pictures/applications/J6o.png>
-Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 278.
+Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 29
+3.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 278--279
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 293--294
 [][] 
  []
 
-<./pictures/applications/J7o.png, id=55, 1445.4pt x 787.44188pt>
+<./pictures/applications/J7o.png, id=54, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J7o.png Graphic file (type png)
 <use ./pictures/applications/J7o.png>
-Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 283.
+Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 29
+8.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 283--284
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 298--299
 [][] 
  []
 
-<./pictures/applications/J2.png, id=56, 1445.4pt x 787.44188pt>
+<./pictures/applications/J2.png, id=55, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J2.png Graphic file (type png)
 <use ./pictures/applications/J2.png>
-Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 289.
+Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 304
+.
 (pdftex.def)             Requested size: 265.29959pt x 144.54pt.
 
-Overfull \hbox (13.4927pt too wide) in paragraph at lines 289--290
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 304--305
 [][] 
  []
 
-(./ifacconf.bbl [4]
+(ifacconf.bbl [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./pictures/applications/T2.png (PNG copy)> <./pictures/applications/T4.png
+ (PNG copy)> <./pictures/applications/Unormalized.png (PNG copy)> <./pictures/a
+pplications/Normalized.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./pictures/applications/T2.png (PNG copy)> <./pictures/applications/T4.png (PNG copy)> <./pictures/applications/Unormalized.png (PNG copy)> <./pictures/applications/Normalized.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [6 <./pictures/applications/J1o.png (PNG copy)> <./pictures/applications/J2o.p
+ng (PNG copy)> <./pictures/applications/J3o.png (PNG copy)> <./pictures/applica
+tions/J4o.png (PNG copy)> <./pictures/applications/J5o.png (PNG copy)> <./pictu
+res/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy
+)> <./pictures/applications/J2.png (PNG copy)>]) [7
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./pictures/applications/J1o.png (PNG copy)> <./pictures/applications/J2o.png (PNG copy)> <./pictures/applications/J3o.png (PNG copy)> <./pictures/applications/J4o.png (PNG copy)> <./pictures/applications/J5o.png (PNG copy)> <./pictures/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy)> <./pictures/applications/J2.png (PNG copy)>] [7
-
-] (./ifacconf.aux) ) 
+] (ifacconf.aux) ) 
 Here is how much of TeX's memory you used:
- 3862 strings out of 480171
- 65841 string characters out of 5894489
- 367338 words of memory out of 5000000
- 21794 multiletter control sequences out of 15000+600000
+ 3979 strings out of 478338
+ 69034 string characters out of 2836227
+ 382666 words of memory out of 3000000
+ 22389 multiletter control sequences out of 15000+600000
  475423 words of font info for 53 fonts, out of 8000000 for 9000
- 59 hyphenation exceptions out of 8191
- 67i,11n,77p,1611b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/student/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ifacconf.pdf (7 pages, 2886213 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 67i,11n,77p,1577b,523s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Kaigom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\tcrm1000.pk><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kaigom/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Kaigom/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kaigo
+m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
+sers/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ifacconf.pdf (7 pages, 4310713 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
