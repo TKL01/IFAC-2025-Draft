@@ -148,7 +148,7 @@ They are therefore used for predictions where a large number of past states have
 Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benefit from their respective strengths. In essence,
 \begin{table}[b!]
   \begin{center}
-  \caption{Comparison of Feedforward and LSTM neural networks}\label{tb:FFLSTM}
+  \caption{Comparison between Feedforward and LSTM neural networks}\label{tb:FFLSTM}
   \resizebox{0.8\columnwidth}{!}{  
   \begin{tabular}{lcc}
   \hline
@@ -203,7 +203,7 @@ Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benef
 \begin{itemize}
   \item FNNs disregard historical information and consider each input independently.  LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
   \item FNNs can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (e.g., sates and gates). LSTMs store and update past information.
-  \item Joint temperatures change due to continous load, movement and position. This can be detected by LSTMs, since they are specifically desinged for time series. FNNs are more suitable for regression problems on static data points, similar to the approximation of the temperature profile (see Fig.~\ref{fig:Gauss2_legend})
+  \item Joint temperatures change due to continous loads as well as temporal dynamics of joint torques. The time-dependency can be captures by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or reordering of the temporal dynamics is non-critical.
 \end{itemize}
 % \begin{table}[hb]
 %   \begin{center}
