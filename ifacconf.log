@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -270,22 +270,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--136
 <./pictures/applications/T2.png, id=43, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/T2.png Graphic file (type png)
 <use ./pictures/applications/T2.png>
-Package pdftex.def Info: ./pictures/applications/T2.png  used on input line 196
+Package pdftex.def Info: ./pictures/applications/T2.png  used on input line 173
 .
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 196--197
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
 <./pictures/applications/T4.png, id=44, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/T4.png Graphic file (type png)
 <use ./pictures/applications/T4.png>
-Package pdftex.def Info: ./pictures/applications/T4.png  used on input line 202
+Package pdftex.def Info: ./pictures/applications/T4.png  used on input line 179
 .
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 202--203
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
@@ -293,10 +293,10 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 202--203
 File: ./pictures/applications/Unormalized.png Graphic file (type png)
 <use ./pictures/applications/Unormalized.png>
 Package pdftex.def Info: ./pictures/applications/Unormalized.png  used on input
- line 213.
+ line 190.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 213--214
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
@@ -304,10 +304,10 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 213--214
 File: ./pictures/applications/Normalized.png Graphic file (type png)
 <use ./pictures/applications/Normalized.png>
 Package pdftex.def Info: ./pictures/applications/Normalized.png  used on input 
-line 219.
+line 196.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 219--220
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
@@ -315,33 +315,33 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 219--220
 File: ./pictures/applications/J1o.png Graphic file (type png)
 <use ./pictures/applications/J1o.png>
 Package pdftex.def Info: ./pictures/applications/J1o.png  used on input line 23
-2.
+5.
 (pdftex.def)             Requested size: 197.15527pt x 151.76744pt.
 <./pictures/applications/J2o.png, id=48, 943.27406pt x 689.57625pt>
 File: ./pictures/applications/J2o.png Graphic file (type png)
 <use ./pictures/applications/J2o.png>
-Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 23
-8.
+Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 24
+1.
 (pdftex.def)             Requested size: 207.5929pt x 151.76744pt.
 <./pictures/applications/J3o.png, id=49, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J3o.png Graphic file (type png)
 <use ./pictures/applications/J3o.png>
 Package pdftex.def Info: ./pictures/applications/J3o.png  used on input line 24
-3.
+6.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 243--244
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
 <./pictures/applications/J4o.png, id=50, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J4o.png Graphic file (type png)
 <use ./pictures/applications/J4o.png>
-Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 24
-9.
+Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 25
+2.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 249--250
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 252--253
 [][] 
  []
 
@@ -349,10 +349,10 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 249--250
 File: ./pictures/applications/J5o.png Graphic file (type png)
 <use ./pictures/applications/J5o.png>
 Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 25
-4.
+7.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 254--255
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 257--258
 [][] 
  []
 
@@ -360,10 +360,10 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 254--255
 File: ./pictures/applications/J6o.png Graphic file (type png)
 <use ./pictures/applications/J6o.png>
 Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 26
-0.
+3.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 260--261
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 263--264
 [][] 
  []
 
@@ -371,21 +371,21 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 260--261
 File: ./pictures/applications/J7o.png Graphic file (type png)
 <use ./pictures/applications/J7o.png>
 Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 26
-5.
+8.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 265--266
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 268--269
 [][] 
  []
 
 <./pictures/applications/J2.png, id=54, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J2.png Graphic file (type png)
 <use ./pictures/applications/J2.png>
-Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 271
+Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 274
 .
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 271--272
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 274--275
 [][] 
  []
 
@@ -417,13 +417,13 @@ es/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy)
 > <./pictures/applications/J2.png (PNG copy)>] (ifacconf.bbl) [6] (ifacconf.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 3966 strings out of 478338
- 68640 string characters out of 2836227
- 381429 words of memory out of 3000000
- 22376 multiletter control sequences out of 15000+600000
+ 3968 strings out of 478338
+ 68716 string characters out of 2836227
+ 382401 words of memory out of 3000000
+ 22378 multiletter control sequences out of 15000+600000
  475423 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,1590b,523s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,11n,77p,1598b,523s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Kaigom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1000.pk><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/
@@ -440,7 +440,7 @@ amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ifacconf.pdf (6 pages, 2414628 bytes).
+Output written on ifacconf.pdf (6 pages, 2415093 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

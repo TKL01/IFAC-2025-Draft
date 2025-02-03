@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -73,6 +73,18 @@ Jorgensen, S.J., Holley, J., Mathis, F., Mehling, J.S., and Sentis, L. (2019).
 \newblock Thermal recovery of multi-limbed robots with electric actuators.
 \newblock \emph{IEEE Robotics and Automation Letters}, 4(2), 1077--1084.
 
+\bibitem[{Kaigom(2023)}]{kaigom2023metarobotics}
+Kaigom, E.G. (2023).
+\newblock Metarobotics for industry and society: Vision, technologies, and
+  opportunities.
+\newblock \emph{IEEE Transactions on Industrial Informatics}.
+
+\bibitem[{Kaigom and Ro{\ss}mann(2020)}]{kaigom2020value}
+Kaigom, E.G. and Ro{\ss}mann, J. (2020).
+\newblock Value-driven robotic digital twins in cyber--physical applications.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 17(5),
+  3609--3619.
+
 \bibitem[{Kim et~al.(2025)Kim, Lee, Maldonado-Contreras, Zhou, Herrin, and
   Young}]{kim2025mode}
 Kim, H., Lee, D., Maldonado-Contreras, J.Y., Zhou, S., Herrin, K.R., and Young,
@@ -117,15 +129,6 @@ Soga, T., Hanai, H., Hirogaki, T., and Aoyama, E. (2024).
 \newblock Skillful operation of working plate for grasp less ball handling with
   an industrial dual-arm robot considering temperature of joint motors.
 \newblock \emph{International Journal of Modeling and Optimization}, 14(4).
-
-\bibitem[{Trinh et~al.(2023)Trinh, Yadav, Schwiedernoch, Gr{\"u}ndel, Petrovic,
-  and Brecher}]{trinh2023modeling}
-Trinh, M., Yadav, R., Schwiedernoch, R., Gr{\"u}ndel, L., Petrovic, O., and
-  Brecher, C. (2023).
-\newblock Modeling of temperature-dependent joint friction in industrial robots
-  using neural networks.
-\newblock In \emph{2023 Seventh IEEE International Conference on Robotic
-  Computing (IRC)}, 206--213. IEEE.
 
 \bibitem[{Tsui et~al.(2025)Tsui, Baggett, and Chiang}]{tsui2025exploring}
 Tsui, K.M., Baggett, R., and Chiang, C. (2025).
