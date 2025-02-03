@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -311,91 +311,88 @@ Overfull \hbox (26.7698pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
-
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
- [3 <./pictures/Gauss2_legend.png (PNG copy)>]
-<./pictures/applications/J1o.png, id=56, 895.84688pt x 689.57625pt>
+<./pictures/applications/J1o.png, id=47, 895.84688pt x 689.57625pt>
 File: ./pictures/applications/J1o.png Graphic file (type png)
 <use ./pictures/applications/J1o.png>
 Package pdftex.def Info: ./pictures/applications/J1o.png  used on input line 23
-6.
+2.
 (pdftex.def)             Requested size: 197.15527pt x 151.76744pt.
-<./pictures/applications/J2o.png, id=57, 943.27406pt x 689.57625pt>
+<./pictures/applications/J2o.png, id=48, 943.27406pt x 689.57625pt>
 File: ./pictures/applications/J2o.png Graphic file (type png)
 <use ./pictures/applications/J2o.png>
-Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 24
-2.
+Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 23
+8.
 (pdftex.def)             Requested size: 207.5929pt x 151.76744pt.
-<./pictures/applications/J3o.png, id=58, 1445.4pt x 787.44188pt>
+<./pictures/applications/J3o.png, id=49, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J3o.png Graphic file (type png)
 <use ./pictures/applications/J3o.png>
 Package pdftex.def Info: ./pictures/applications/J3o.png  used on input line 24
-7.
-(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
-
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 247--248
-[][] 
- []
-
-<./pictures/applications/J4o.png, id=59, 1445.4pt x 787.44188pt>
-File: ./pictures/applications/J4o.png Graphic file (type png)
-<use ./pictures/applications/J4o.png>
-Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 25
 3.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 253--254
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 243--244
 [][] 
  []
 
-<./pictures/applications/J5o.png, id=60, 1445.4pt x 787.44188pt>
-File: ./pictures/applications/J5o.png Graphic file (type png)
-<use ./pictures/applications/J5o.png>
-Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 25
-8.
-(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
-
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 258--259
-[][] 
- []
-
-<./pictures/applications/J6o.png, id=61, 1445.4pt x 787.44188pt>
-File: ./pictures/applications/J6o.png Graphic file (type png)
-<use ./pictures/applications/J6o.png>
-Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 26
-4.
-(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
-
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 264--265
-[][] 
- []
-
-<./pictures/applications/J7o.png, id=62, 1445.4pt x 787.44188pt>
-File: ./pictures/applications/J7o.png Graphic file (type png)
-<use ./pictures/applications/J7o.png>
-Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 26
+<./pictures/applications/J4o.png, id=50, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J4o.png Graphic file (type png)
+<use ./pictures/applications/J4o.png>
+Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 24
 9.
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 269--270
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 249--250
 [][] 
  []
 
-<./pictures/applications/J2.png, id=63, 1445.4pt x 787.44188pt>
+<./pictures/applications/J5o.png, id=51, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J5o.png Graphic file (type png)
+<use ./pictures/applications/J5o.png>
+Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 25
+4.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 254--255
+[][] 
+ []
+
+<./pictures/applications/J6o.png, id=52, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J6o.png Graphic file (type png)
+<use ./pictures/applications/J6o.png>
+Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 26
+0.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 260--261
+[][] 
+ []
+
+<./pictures/applications/J7o.png, id=53, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J7o.png Graphic file (type png)
+<use ./pictures/applications/J7o.png>
+Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 26
+5.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 265--266
+[][] 
+ []
+
+<./pictures/applications/J2.png, id=54, 1445.4pt x 787.44188pt>
 File: ./pictures/applications/J2.png Graphic file (type png)
 <use ./pictures/applications/J2.png>
-Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 275
+Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 271
 .
 (pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
 
-Overfull \hbox (26.7698pt too wide) in paragraph at lines 275--276
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
-[4 <./pictures/applications/T2.png (PNG copy)> <./pictures/applications/T4.png 
-(PNG copy)> <./pictures/applications/Unormalized.png (PNG copy)> <./pictures/ap
-plications/Normalized.png (PNG copy)>]
+[3 <./pictures/Gauss2_legend.png (PNG copy)>] [4 <./pictures/applications/T2.pn
+g (PNG copy)> <./pictures/applications/T4.png (PNG copy)> <./pictures/applicati
+ons/Unormalized.png (PNG copy)> <./pictures/applications/Normalized.png (PNG co
+py)>]
 
 LaTeX Warning: Text page 5 contains only floats.
 
@@ -422,7 +419,7 @@ es/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy)
 Here is how much of TeX's memory you used:
  3966 strings out of 478338
  68640 string characters out of 2836227
- 379429 words of memory out of 3000000
+ 381429 words of memory out of 3000000
  22376 multiletter control sequences out of 15000+600000
  475423 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -443,7 +440,7 @@ amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ifacconf.pdf (6 pages, 2414572 bytes).
+Output written on ifacconf.pdf (6 pages, 2414628 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

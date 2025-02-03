@@ -58,7 +58,7 @@ Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in fun
 \begin{figure*}[t!]
 	\begin{center}
 		\includegraphics[width=0.81\textwidth]{pictures/DataCollection.pdf} 
-		\caption{Kinova data collection via OPC UA Server} 
+		\caption{Kinova data collection via OPC UA Server.} 
 		\label{fig:DataAquisition}
 	\end{center}
 \end{figure*}
@@ -90,7 +90,7 @@ Contributions mentioned thus far are mostly model-driven. They fit  with specifi
 %[The following section describes the data management, the temperature profile approximation, for evaluation purposes with the neural network models 
 %and [the data preprocessing for the trainings] the training results?]
 
-\subsection{Data collection}
+\subsection{System overview}
 The data from a Kinova Gen3 7 degrees-of-freedom ultra-lightweight robotic arm [kinova], has been recorded using a specially developed OPC Unified Architecture server (\cite{Girke}). 
 Positions, temperatures, torques, velocities and currents of each of the seven joints are stored, via a client application, as parameters in CSV files and subsequently processed for the neural network trainings, see Fig.~\ref{fig:DataAquisition}.
 To cover a wide range of robotic movements, both randomly generated joint angle trajectories and predefined Cartesian trajectories for pick and place tasks, for example, were generated using the Kortex API (\cite{kortexAPI}). 
@@ -125,7 +125,7 @@ b_2 = -26.71, \quad c_2 = 103
 \begin{figure}[t]
   \begin{center}
   \includegraphics[width=8.4cm]{pictures/Gauss2_legend.png}    % The printed column width is 8.4 cm.
-  \caption{Approximation of the temperature profile of the 4th joint with the Gauss2 function} 
+  \caption{Approximation of the temperature profile of the 4th joint with the Gauss2 function.} 
   \label{fig:Gauss2_legend}
   \end{center}
 \end{figure}
@@ -187,7 +187,7 @@ Table~\ref{tb:FFLSTM} compares the neural network architectures leveraged  in th
 %   \end{tabular}
 %   \end{center}
 % \end{table}
-We propose a deep neural network that combines LSTM as feature-extractor for time series dependencies in the input data and multiple Feedforward layers to interpret the extracted features for the final temperature prediction.
+We implement and train a deep neural network that combines LSTM as a feature-extractor for time series dependencies in the input torque data and multiple Feedforward layers to take advantage of the extracted features for the subsequent temperature prediction at the network output.
 
 \begin{figure*}[t!]
 	\centering
@@ -224,10 +224,6 @@ We propose a deep neural network that combines LSTM as feature-extractor for tim
 \end{figure*}
 
 
-\subsection{Data Preprocessing}
-The collected data allows the utilization of joint positions, torques, velocities, and currents of all seven joints as input features.
-The selection of the input values for the training can be adjusted as needed, varying from 7 to a total of 28 inputs (Fig.~\ref{fig:DataAquisition}). However, the best result was observed with only the torques as input features for the neuronal network. The temperature values of the seven joints are used as targets.
-To evaluate the temperature predictions from the neural networks, randomly selected temperature measurements serve as ground truth.
 
 \begin{figure*}[t!]
 	\centering
@@ -283,12 +279,20 @@ To evaluate the temperature predictions from the neural networks, randomly selec
 \section{Application}
 Experiments have been carried out to predict the temperature of each of the seven joint motors of the redundant robot in Fig.~\ref{fig:intro}. 
 
-\subsection{Data acquisition}
+
+\subsection{Data acquisition and pre-processing}
+The collected data allows the utilization of joint positions, torques, velocities, and currents of all seven joints as input features.
+The selection of the input values for the training can be adjusted as needed, varying from 7 to a total of 28 inputs (Fig.~\ref{fig:DataAquisition}). However, the best result was observed with only the joint torques (see Fig.~\ref{jointtorque}) as input features for the neuronal network. The temperature values of the seven joints are used as targets.
+To evaluate the temperature predictions from the neural networks, randomly selected temperature measurements serve as ground truth.
+
+%\subsection{Data acquisition}
 The setup for collecting joint torques and corresponding motor temperatures is shown in Fig. \ref{fig:DataAquisition}. Recorded profiles of joint torques are rather challenging when compared to step profiles considered in related works.  Acquired data are not filtered. A z-score normalization of  input (i.e., joint torques) and target (motor temperatures) data is carried out before training. The  mean $\mu$ and standard deviation $\sigma$ of temperature data obtained during the normalization are stored. After training, the original temperature data $x$ is reconstructed from the predicted $\tilde{x}$ according
 \begin{equation}
 	x=\tilde{x}\sigma +\mu
 \end{equation}
-Data normalization has significantly speed up the training process and enhanced the convergence (see Fig.~\ref{trainingloss}). The mean squared error between network output and target temperature data  is adopted as loss function. Back propagation is leveraged for the optimization of network weights. The Adaptive Moment {Estimation adapts the learning rate.} The probability with which input elements are dropped out (i.e., set to zero) to prevent  network over-fitting is set to 0.1. A mixture of \textit{tanh}, \textit{elu}, and \textit{sigmoid} are distributed as activation functions (a type per layer) to inject non-linearities  into the network. The output layer is equipped {with the identity activation function.}
+Data normalization has significantly speed up the training process and enhanced the convergence (see Fig.~\ref{trainingloss}). 
+\subsection{Model training}
+The mean squared error between network output and target temperature data  is adopted as loss function. Back propagation is leveraged for the optimization of network weights. The Adaptive Moment {Estimation adapts the learning rate.} The probability with which input elements are dropped out (i.e., set to zero) to prevent  network over-fitting is set to 0.1. A mixture of \textit{tanh}, \textit{elu}, and \textit{sigmoid} are distributed as activation functions (a type per layer) to inject non-linearities  into the network. The output layer is equipped {with the identity activation function.}
 \subsection{Prediction results}
 The trained neural network of seven hidden layers (one LSTM layer, six feed forward  layers with a decreasing number of neurons toward the output) is fed with torque data. The network input is a  dataset \textit{unseen} during training.  The goal is to  assess the generalization capability of the network when facing new dynamics of the robot. Two generalization tests are completed for each of the seven joints.  An additional test with seen data is conducted and restricted to the second joint.
 
