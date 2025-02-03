@@ -229,12 +229,12 @@ INPUT pictures/intro.png
 INPUT ./pictures/intro.png
 OUTPUT ifacconf.pdf
 INPUT ./pictures/intro.png
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./pictures/DataCollection.pdf
 INPUT ./pictures/DataCollection.pdf
 INPUT pictures/DataCollection.pdf
 INPUT ./pictures/DataCollection.pdf
 INPUT ./pictures/DataCollection.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./pictures/Gauss2_legend.png
 INPUT ./pictures/Gauss2_legend.png
 INPUT pictures/Gauss2_legend.png

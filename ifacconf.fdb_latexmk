@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex ifacconf"] 1738612861 "ifacconf.aux" "ifacconf.bbl" "ifacconf" 1738612861
+["bibtex ifacconf"] 1738621306 "ifacconf.aux" "ifacconf.bbl" "ifacconf" 1738621551
   "./ifacconf.bst" 1737747941 30606 0a94c3be66b01cc15224e14423d70f48 ""
-  "ifacconf.aux" 1738612861 6196 be9354c622ada04bb21be2252ac76ef8 "pdflatex"
-  "ifacconf.bib" 1738612657 11237 1dab2c3b693f73f3c49a0ae6e5784c2b ""
+  "ifacconf.aux" 1738621551 5766 49309cf86089adda018369448cb9604e "pdflatex"
+  "ifacconf.bib" 1738621157 11441 d0d2b2267cd5874b7541aba7138fdad8 ""
   (generated)
   "ifacconf.bbl"
   "ifacconf.blg"
-["pdflatex"] 1738612861 "/home/student/IFAC-2025-Draft/ifacconf.tex" "ifacconf.pdf" "ifacconf" 1738612861
+["pdflatex"] 1738621550 "/home/student/IFAC-2025-Draft/ifacconf.tex" "ifacconf.pdf" "ifacconf" 1738621551
   "/etc/texmf/web2c/texmf.cnf" 1737748182 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/student/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1738335076 11524 b5d7da089913b79ab24761c61db5cee0 ""
-  "/home/student/IFAC-2025-Draft/ifacconf.tex" 1738612860 28306 c62603ff7207b610963b48c1086d8693 ""
+  "/home/student/IFAC-2025-Draft/ifacconf.tex" 1738621550 28170 6e118202ad99fed9ec0723c826aabd8d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -68,10 +68,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1737748186 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1737748192 1435942 0533bd39c2eb45b82313f97dcb8db323 ""
-  "ifacconf.aux" 1738612861 6196 be9354c622ada04bb21be2252ac76ef8 "pdflatex"
-  "ifacconf.bbl" 1738612861 6959 dd872b89bd22b2193f3cfabc46f6a71d "bibtex ifacconf"
+  "ifacconf.aux" 1738621551 5766 49309cf86089adda018369448cb9604e "pdflatex"
+  "ifacconf.bbl" 1738621306 7213 3ac9f1448731886d1bbf3608931b772c "bibtex ifacconf"
   "ifacconf.cls" 1737747941 65509 4f55878f71691d56a61642cb8e426222 ""
-  "ifacconf.tex" 1738612860 28306 c62603ff7207b610963b48c1086d8693 ""
+  "ifacconf.tex" 1738621550 28170 6e118202ad99fed9ec0723c826aabd8d ""
   "pictures/DataCollection.pdf" 1738605732 219295 1bf522b1b11cf0bd076c854c29f0d19a ""
   "pictures/Gauss2_legend.png" 1738341985 15602 d6446a4c42830d342fd33199e4b32d48 ""
   "pictures/applications/J1o.png" 1738554525 93476 624b91f1ea747fa29305c43b445d7c38 ""

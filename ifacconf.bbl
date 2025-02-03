@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -92,6 +92,12 @@ Kim, H., Lee, D., Maldonado-Contreras, J.Y., Zhou, S., Herrin, K.R., and Young,
 \newblock Mode-unified intent estimation of a robotic prosthesis using
   deep-learning.
 \newblock \emph{IEEE Robotics and Automation Letters}.
+
+\bibitem[{Kinovarobotics(2025)}]{kinova}
+Kinovarobotics (2025).
+\newblock Kortex api.
+\newblock \url{https://www.kinovarobotics.com/product/gen3-robots}.
+\newblock [Online; accessed 1-Feb-2025].
 
 \bibitem[{Liu et~al.(2019)Liu, Li, Hao, Yang, Hu, Xue, and Wang}]{Liu}
 Liu, N., Li, L., Hao, B., Yang, L., Hu, T., Xue, T., and Wang, S. (2019).
