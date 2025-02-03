@@ -78,7 +78,7 @@ Contributions mentioned thus far are mostly model-driven. They fit  with specifi
 
 \begin{figure*}
   \begin{center}
-    \includegraphics[width=\textwidth]{pictures/DataAquisition.drawio.pdf} 
+    \includegraphics[width=\textwidth]{pictures/DataCollection.pdf} 
     \caption{Kinova data collection via OPC UA Server} 
     \label{fig:DataAquisition}
   \end{center}
@@ -96,10 +96,9 @@ For cooling, the robot was positioned in a vertical position, as this joint conf
 To prevent collisions due to randomly generated joint angles, the random angular values were constrained within minimum and maximum limits. 
 The result of this experiment indicate that joint 2 and joint 4 experience the most temperature increase and cooling. The data is freely available on our streamlit web app, 
 which automatically visualizes the CSV files and displays the specific joint data.\footnote{https://irolabkinova.streamlit.app}  
-For this reason, the focus was first placed on the 4th joint, while all other joints were fixed at 0°. Only the 4th joint was actuated with randomly generated values between two varying minimum and maximum angle limits (for example -90° and +90°).
 
 \subsection{Temperature curve approximation}
-(Parts of) The temperature curve can be represented approximately with the Gaussian model (i.e. Gauss2) as shown in Fig.~\ref{fig:Gauss2_legend} and (\ref{eq:gauss2}):
+The temperature curve can be represented approximately with the Gaussian model (i.e. Gauss2) as shown in Fig.~\ref{fig:Gauss2_legend} and (\ref{eq:gauss2}):
 %fit function temperature with 2_KinovaLog_300_120_45_90_weight_API.csv (should take another example to compare)
 \begin{equation} \label{eq:gauss2}
   \begin{array}{l}
@@ -107,7 +106,7 @@ For this reason, the focus was first placed on the 4th joint, while all other jo
   \quad + a_2 \cdot \exp\left( -\left( \frac{x - b_2}{c_2} \right)^2 \right)
   \end{array}
   \end{equation}
-With the coefficients for Fig.~\ref{fig:Gauss2_legend}:
+With the coefficients and metrics for Fig.~\ref{fig:Gauss2_legend}:
 \[
 a_1 = 34.07, \quad b_1 = 276 
 \]
@@ -127,18 +126,20 @@ b_2 = -26.71, \quad c_2 = 103
   \label{fig:Gauss2_legend}
   \end{center}
 \end{figure}
-[Sum of Squared Errors (SSE): 5.4852\\
-Mean Squared Error (MSE): 0.0066087]\\
+% Sum of Squared Errors (SSE): 5.4852\\
+% Mean Squared Error (MSE): 0.0066087\\
 Root Mean Squared Error (RMSE): 0.081294\\
 R² (coefficient of determination): 0.9897\\
-Although the approximation provides a good result, it has some limitations as previously described in section \ref{chap:relatedworks}.
+Although the approximation provides a good result, it has some limitations. 
+The coefficients vary for each temperature curve and must be recalculated. 
+Neuronal networks offer a more dynamic approach.
 
-\subsection{Data Preprocessing}
-The collected data allows the utilization of joint positions, torques, velocities, and currents of all seven joints as input features.
-The selection of the input values for the training can be adjusted as needed, varying from 7 to a total of 28 inputs (Fig.~\ref{fig:DataAquisition}). However, the best result was observed with only the torques as input features for both the Feedforward and the LSTM model, see Fig.X?. The temperature values of the seven joints are used as targets.
-To evaluate the temperature predictions from the neural networks, randomly selected temperature measurements serve as ground truth.
 
-\subsection{Feedforward and LSTM neural networks, move this section anywhere}
+\subsection{Feedforward and LSTM neural networks}
+Feedforward networks have simplistic strcuture and are limited in their ability to incorporate past values. 
+Recurrent neural networks (RNN) therefore have feedback loops to store past values via hidden states. This allows them to understand long-term dependencies, which results in more stable predictions.
+However, RNNs lose old information over time. With LSTMs, long-term information is stored more effectively. They feature cell state for long-term memory and hidden state for short-term memory. In addition, the storage and removal of information is controlled via four gates (Input Gate, Forget Gate, Cell Gate, Output Gate).  
+They are therefore used for predictions where past states have an influence on future states (\cite{Ljung}).
 
 Table~\ref{tb:FFLSTM} compares the proposed neural networks in this paper.
 \begin{table}[ht]
@@ -161,8 +162,8 @@ Table~\ref{tb:FFLSTM} compares the proposed neural networks in this paper.
   \end{center}
 \end{table}
 \begin{itemize}
-	\item FNNs disregard historical information and consider each input independently. While LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
-  \item The structure of FNNs is simple and can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (gates). LSTMs store and update past information.
+  \item FNNs disregard historical information and consider each input independently. While LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
+  \item The structure of FNNs is simple and can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (sates and gates). LSTMs store and update past information.
   \item Joint temperatures change due to continous load, movement and position. This can be detected by LSTMs, since they were specifically desinged for time series. FNNs are more suitable for regression problems on static data points, similar to the approximation of the temperature curve (see Fig.~\ref{fig:Gauss2_legend})
 \end{itemize}
 % \begin{table}[hb]
@@ -182,6 +183,12 @@ Table~\ref{tb:FFLSTM} compares the proposed neural networks in this paper.
 %   \end{tabular}
 %   \end{center}
 % \end{table}
+We propose a neural network that uses LSTM as feature-extractor for time series dependencies in the input data and combine Feedforward layers to interpret the extracted features for the final temperature prediction.
+
+\subsection{Data Preprocessing}
+The collected data allows the utilization of joint positions, torques, velocities, and currents of all seven joints as input features.
+The selection of the input values for the training can be adjusted as needed, varying from 7 to a total of 28 inputs (Fig.~\ref{fig:DataAquisition}). However, the best result was observed with only the torques as input features for the neuronal network. The temperature values of the seven joints are used as targets.
+To evaluate the temperature predictions from the neural networks, randomly selected temperature measurements serve as ground truth.
 
 \begin{table}[hb]
   \begin{center}

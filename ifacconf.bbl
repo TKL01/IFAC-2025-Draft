@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -6,13 +6,6 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
-
-\bibitem[{Abt et~al.(2025)Abt, Harmann, and Kaigom}]{abt}
-Abt, P., Harmann, R., and Kaigom, E.G. (2025).
-\newblock Manipulability optimization and thermal control of industrial robots
-  in real-time using digital twins, augmented reality, and opc ua.
-\newblock \emph{2025 IEEE/SICE International Symposium on System Integration
-  (SII), Munich, Germany.}
 
 \bibitem[{Afaq et~al.(2023)Afaq, Jebelli, and Ahmad}]{afaq2023intelligent}
 Afaq, M., Jebelli, A., and Ahmad, R. (2023).
@@ -80,26 +73,6 @@ Jorgensen, S.J., Holley, J., Mathis, F., Mehling, J.S., and Sentis, L. (2019).
 \newblock Thermal recovery of multi-limbed robots with electric actuators.
 \newblock \emph{IEEE Robotics and Automation Letters}, 4(2), 1077--1084.
 
-\bibitem[{Kaigom(2023)}]{kaigom2023metarobotics}
-Kaigom, E.G. (2023).
-\newblock Metarobotics for industry and society: Vision, technologies, and
-  opportunities.
-\newblock \emph{IEEE Transactions on Industrial Informatics}.
-
-\bibitem[{Kaigom and Ro{\ss}mann(2020)}]{kaigom2020value}
-Kaigom, E.G. and Ro{\ss}mann, J. (2020).
-\newblock Value-driven robotic digital twins in cyber--physical applications.
-\newblock \emph{IEEE Transactions on Industrial Informatics}, 17(5),
-  3609--3619.
-
-\bibitem[{Kawaharazuka et~al.(2020)Kawaharazuka, Hiraoka, Tsuzuki, Onitsuka,
-  Asano, Okada, Kawasaki, and Inaba}]{kawaharazuka2020estimation}
-Kawaharazuka, K., Hiraoka, N., Tsuzuki, K., Onitsuka, M., Asano, Y., Okada, K.,
-  Kawasaki, K., and Inaba, M. (2020).
-\newblock Estimation and control of motor core temperature with online learning
-  of thermal model parameters: Application to musculoskeletal humanoids.
-\newblock \emph{IEEE Robotics and Automation Letters}, 5(3), 4273--4280.
-
 \bibitem[{Kim et~al.(2025)Kim, Lee, Maldonado-Contreras, Zhou, Herrin, and
   Young}]{kim2025mode}
 Kim, H., Lee, D., Maldonado-Contreras, J.Y., Zhou, S., Herrin, K.R., and Young,
@@ -113,6 +86,11 @@ Liu, N., Li, L., Hao, B., Yang, L., Hu, T., Xue, T., and Wang, S. (2019).
 \newblock Modeling and simulation of robot inverse dynamics using lstm-based
   deep learning algorithm for smart cities and factories.
 \newblock \emph{IEEE Access}.
+
+\bibitem[{Ljung et~al.(2020)Ljung, Andersson, Tiels, and Schön}]{Ljung}
+Ljung, L., Andersson, C., Tiels, K., and Schön, T.B. (2020).
+\newblock Deep learning and system identification.
+\newblock \emph{IFAC-PapersOnLine,53(2), 1175-1181}.
 
 \bibitem[{Robotics(2025)}]{kortexAPI}
 Robotics, K. (2025).
@@ -132,12 +110,6 @@ Sigron, P., Aschwanden, I., and Bambach, M. (2023).
 \newblock Compensation of geometric, backlash, and thermal drift errors using a
   universal industrial robot model.
 \newblock \emph{IEEE Transactions on Automation Science and Engineering}.
-
-\bibitem[{Singh et~al.(2021)Singh, Kashiri, and Tsagarakis}]{singh2021thermal}
-Singh, A., Kashiri, N., and Tsagarakis, N. (2021).
-\newblock Thermal control for peak operation of electric robotic actuators.
-\newblock In \emph{2021 20th International Conference on Advanced Robotics
-  (ICAR)}, 763--770. IEEE.
 
 \bibitem[{Soga et~al.(2024)Soga, Hanai, Hirogaki, and
   Aoyama}]{soga2024skillful}

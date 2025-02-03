@@ -1,50 +1,48 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ifacconf.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: ifacconf.bst
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 Database file #1: ifacconf.bib
 Warning--empty journal in basha2025robotic
-You've used 25 entries,
+You've used 21 entries,
             2921 wiz_defined-function locations,
-            715 strings with 10330 characters,
-and the built_in function-call counts, 15961 in all, are:
-= -- 1196
-> -- 862
-< -- 4
-+ -- 317
-- -- 288
-* -- 1223
-:= -- 2512
-add.period$ -- 77
-call.type$ -- 25
-change.case$ -- 226
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 1189
-empty$ -- 1103
-format.name$ -- 359
-if$ -- 3086
+            697 strings with 9373 characters,
+and the built_in function-call counts, 13261 in all, are:
+= -- 976
+> -- 744
+< -- 2
++ -- 274
+- -- 249
+* -- 1025
+:= -- 2106
+add.period$ -- 64
+call.type$ -- 21
+change.case$ -- 191
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 991
+empty$ -- 898
+format.name$ -- 308
+if$ -- 2545
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 267
-newline$ -- 134
-num.names$ -- 100
-pop$ -- 594
+missing$ -- 225
+newline$ -- 114
+num.names$ -- 84
+pop$ -- 504
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 167
 quote$ -- 0
-skip$ -- 387
+skip$ -- 315
 stack$ -- 0
-substring$ -- 505
-swap$ -- 612
+substring$ -- 367
+swap$ -- 507
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 225
+type$ -- 189
 warning$ -- 1
-while$ -- 96
+while$ -- 77
 width$ -- 0
-write$ -- 323
+write$ -- 271
 (There was 1 warning)
