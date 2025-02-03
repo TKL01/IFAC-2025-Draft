@@ -7,6 +7,7 @@
 
 \usepackage{graphicx}      % include this line if your document contains figures
 \usepackage{natbib}        % required for bibliography
+\usepackage{subcaption}
 %===============================================================================
 \begin{document}
 \begin{frontmatter}
@@ -72,7 +73,7 @@ temperature of musculoskeletal humanoid robots. An enhanced model allows to pred
 \cite{afaq2023intelligent} focus on thermal management of robotic applications under extreme temperatures. Electronics heating and cooling are considered. A temperature control driven by fuzzy logic is developed and demonstrated to this end. Decreases of extreme high temperature from $50^{\circ}$ to $8^{\circ}$ are shown. Fan-based forced convection is used to cool electronics. Excessive internal temperatures in a permanent magnet synchronous motor (PMSM) taking non-stationary loads, which might lead to a reduction of its life time, is addressed in \cite{chen2024lifetime}. An accelerated degradation model is derived to evaluate the reliability function and predict the lifetime of the PMSM under thermal stress.  Geometric backlash and temperature-related drift errors in joints of industrial robots are compensated in \cite{sigron2023compensation}. A model that reflects the thermal expansion of links is developed and used for thermal expansion correction.  LSTM Neural
 Networks (\cite{he2024rotor})  and   Pseudo-Siamese Nested LSTM (\cite{cai2021temperature}) are employed to predict the temperature in Permanent Magnet Synchronous Motors. A trapezoidal torque profile is employed in \cite{he2024rotor} whereas the torque dynamics is not released in (\cite{cai2021temperature}). A thermal recovery of robot joints is achieved in  \cite{jorgensen2019thermal}. To this end, the thermal dynamics is captured as a first order ordinary differential equation subject to constant positive and negative step-like profiles of joint torques. The exponential-based dynamics of the temperature behavior is derived.  A parameter identification is carried out to demonstrate the performance of the model for step-like joint torques. Another model-based approach is proposed in \cite{trinh2023modeling} to predict temperature-dependent joint frictions in industrial robots.
 
-Contributions mentioned thus far are mostly model-driven. They fit  with specific robots provided that parameters have been  identified in advance. However, parameter identification requires   noise robustness and low  sensitivity (\cite{zhang2024model}, \cite{de2024non}), which might be a time consuming analysis task  prone to additional uncertainties due to unseen$\slash$unmodeled$\slash$truncated dynamics (\cite{shang2024general}). Sometimes, such a process must  be repeated from scratch for a given new robot, which inhibits quick and large scale automation involving multiple robots in terms of complexity, workload, and costs. As the robot is hardly accessible, such as in space servicing,  identification tasks might be hard to complete because of limited access to pertinent (e.g., excitation) data. Autonomous task completion without human interventions, as expected by Industry 6.0, calls for machine learning-embedded solutions (\cite{carayannis2024toward}) that can extend the robot intelligence for self-condition monitoring. The approach proposed in this work also falls into this category. Robot datasets available from standard APIs are harnessed to predict the thermal behavior of its joint motors. Trained machine learning models can be executed by dedicated services of  digital twins with the physical robot is embedded to detect, communicate to other entities, and anticipate  detrimental thermal issues. In contrast to related works, no restriction is made  on  types of robot, number of joints, and profiles of actuation.
+Contributions mentioned thus far are mostly model-driven. They fit  with specific robots provided that parameters have been  identified in advance. However, parameter identification requires   noise robustness and low  sensitivity (\cite{zhang2024model}, \cite{de2024non}), which might be a time consuming analysis task  prone to additional uncertainties due to unseen$\slash$unmodeled$\slash$truncated dynamics (\cite{shang2024general}). Sometimes, such a process must  be repeated from scratch for a given new robot, which inhibits quick and large scale automation involving multiple robots in terms of complexity, workload, and costs. As the robot is hardly accessible, such as in space servicing,  identification tasks might be hard to complete because of limited access to pertinent (e.g., excitation) data. Autonomous task completion without human interventions, as expected by Industry 6.0, calls for machine learning-embedded solutions (\cite{carayannis2024toward}) that can extend the robot intelligence for self-condition monitoring. The approach proposed in this work also falls into this category. Robot datasets available from standard APIs are harnessed to predict the thermal behavior of its joint motors. Trained machine learning models can be executed by dedicated services of  digital twins with the physical robot is embedded to detect, communicate to other entities, and anticipate  detrimental thermal issues. In contrast to related works, no restriction is made  on  robot types, number of joints, and actuation profiles.
 
 \section{Data-driven prediction of  thermal joint states}
 
@@ -307,6 +308,92 @@ outside of the closing parenthesis (like this). (A parenthetical
 sentence is punctuated within the parentheses.) Avoid contractions;
 for example, write ``do not'' instead of ``don' t''. The serial comma
 is preferred: ``A, B, and C'' instead of ``A, B and C''.
+\section{Application}
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}[b]{1.\columnwidth}
+		\centering
+		\includegraphics[height=2.1in]{./pictures/applications/T2.png}
+		\caption{Lorem ipsum}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[b]{1.\columnwidth}
+		\centering
+		\includegraphics[height=2.1in]{./pictures/applications/T4.png}
+		\caption{aaa}
+	\end{subfigure}
+	\caption{Caption place holder}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}[b]{1.\columnwidth}
+		\centering
+		\includegraphics[height=2.1in]{./pictures/applications/Unormalized.png}
+		\caption{Lorem ipsum}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[b]{1.\columnwidth}
+		\centering
+		\includegraphics[height=2.1in]{./pictures/applications/Normalized.png}
+		\caption{aaa}
+	\end{subfigure}
+	\caption{Caption place holder}
+\end{figure*}
+
+Use the t option for the alignment of the subfigures:
+
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}[t]{\columnwidth}
+		\centering
+		\includegraphics[height=2.in]{./pictures/applications/J1o.png}
+		\caption{Lorem ipsum}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[t]{\columnwidth}
+		\centering
+		\includegraphics[height=2.in]{./pictures/applications/J2o.png}
+		\caption{Lorem ipsum, }
+	\end{subfigure}
+	\begin{subfigure}[t]{\columnwidth}
+	%\centering
+	\includegraphics[height=2.in]{./pictures/applications/J3o.png}
+	\caption{Lorem ipsum}
+\end{subfigure}%
+~ 
+\begin{subfigure}[t]{\columnwidth}
+	%\centering
+	\includegraphics[height=2.in]{./pictures/applications/J4o.png}
+	\caption{Lorem ipsum, }
+\end{subfigure}
+	\begin{subfigure}[t]{\columnwidth}
+%	\centering
+	\includegraphics[height=2.in]{./pictures/applications/J5o.png}
+	\caption{Lorem ipsum}
+\end{subfigure}%
+~ 
+\begin{subfigure}[t]{\columnwidth}
+%	\centering
+	\includegraphics[height=2.in]{./pictures/applications/J6o.png}
+	\caption{Lorem ipsum, }
+\end{subfigure}
+\begin{subfigure}[t]{\columnwidth}
+	%	\centering
+	\includegraphics[height=2.in]{./pictures/applications/J7o.png}
+	\caption{Lorem ipsum, }
+\end{subfigure}
+~
+\begin{subfigure}[t]{\columnwidth}
+	%	\centering
+	\includegraphics[height=2.in]{./pictures/applications/J2.png}
+	\caption{With seen indistribution data }
+\end{subfigure}
+	\caption{Training with in-distribution-data.}
+\end{figure*}
+
 \section{Discussion?}
 ?
 \section{Conclusion}

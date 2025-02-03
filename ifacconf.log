@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  1 FEB 2025 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 03:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,42 +143,75 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count279
 )
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = macro:->\@makefigurecaption  on input lin
+e 1176.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+)
+\c@subfigure=\count282
+\c@subtable=\count283
+)
 (C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
+\l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box56
 ) (ifacconf.aux)
 \openout1 = `ifacconf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 (C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen161
+\scratchcounter=\count285
+\scratchdimen=\dimen169
 \scratchbox=\box57
-\nofMPsegments=\count282
-\nofMParguments=\count283
+\nofMPsegments=\count286
+\nofMParguments=\count287
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen162
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen170
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks22
 )
 (C:\Users\Kaigom\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
@@ -191,21 +224,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 14.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14> on input line 14.
+(Font)              <14> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.79996> on input line 14.
-\c@sv@footnote=\count287
+(Font)              <9.79996> on input line 15.
+\c@sv@footnote=\count291
 <pictures/intro.png, id=1, 539.616pt x 339.669pt>
 File: pictures/intro.png Graphic file (type png)
 <use pictures/intro.png>
-Package pdftex.def Info: pictures/intro.png  used on input line 51.
+Package pdftex.def Info: pictures/intro.png  used on input line 52.
 (pdftex.def)             Requested size: 244.25298pt x 153.74628pt.
  [1{C:/Users/Kaigom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./pictures/intro.png>]
-Overfull \hbox (4.94359pt too wide) in paragraph at lines 61--62
+Overfull \hbox (4.94359pt too wide) in paragraph at lines 62--63
 []\OT1/cmr/m/n/10 model-free through the de-vel-op-ment of a deep learning-
  []
 
@@ -213,7 +248,7 @@ Overfull \hbox (4.94359pt too wide) in paragraph at lines 61--62
 <bifurcation.jpg, id=19, 670.505pt x 501.875pt>
 File: bifurcation.jpg Graphic file (type jpg)
 <use bifurcation.jpg>
-Package pdftex.def Info: bifurcation.jpg  used on input line 133.
+Package pdftex.def Info: bifurcation.jpg  used on input line 134.
 (pdftex.def)             Requested size: 239.00298pt x 178.89055pt.
 
 
@@ -222,41 +257,180 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 <pictures/DataAquisition.pdf, id=20, 845.07718pt x 597.19106pt>
 File: pictures/DataAquisition.pdf Graphic file (type pdf)
 <use pictures/DataAquisition.pdf>
-Package pdftex.def Info: pictures/DataAquisition.pdf  used on input line 206.
+Package pdftex.def Info: pictures/DataAquisition.pdf  used on input line 207.
 (pdftex.def)             Requested size: 239.00298pt x 168.89815pt.
-[3 <./bifurcation.jpg> <./pictures/DataAquisition.pdf>] (ifacconf.bbl [4]
+[3 <./bifurcation.jpg> <./pictures/DataAquisition.pdf>]
+<./pictures/applications/T2.png, id=42, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/T2.png Graphic file (type png)
+<use ./pictures/applications/T2.png>
+Package pdftex.def Info: ./pictures/applications/T2.png  used on input line 317
+.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 317--318
+ [][] 
+ []
+
+<./pictures/applications/T4.png, id=43, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/T4.png Graphic file (type png)
+<use ./pictures/applications/T4.png>
+Package pdftex.def Info: ./pictures/applications/T4.png  used on input line 323
+.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 323--324
+ [][] 
+ []
+
+<./pictures/applications/Unormalized.png, id=44, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/Unormalized.png Graphic file (type png)
+<use ./pictures/applications/Unormalized.png>
+Package pdftex.def Info: ./pictures/applications/Unormalized.png  used on input
+ line 333.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 333--334
+ [][] 
+ []
+
+<./pictures/applications/Normalized.png, id=45, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/Normalized.png Graphic file (type png)
+<use ./pictures/applications/Normalized.png>
+Package pdftex.def Info: ./pictures/applications/Normalized.png  used on input 
+line 339.
+(pdftex.def)             Requested size: 278.57669pt x 151.76744pt.
+
+Overfull \hbox (26.7698pt too wide) in paragraph at lines 339--340
+ [][] 
+ []
+
+<./pictures/applications/J1o.png, id=46, 895.84688pt x 689.57625pt>
+File: ./pictures/applications/J1o.png Graphic file (type png)
+<use ./pictures/applications/J1o.png>
+Package pdftex.def Info: ./pictures/applications/J1o.png  used on input line 35
+2.
+(pdftex.def)             Requested size: 187.77798pt x 144.54pt.
+<./pictures/applications/J2o.png, id=47, 943.27406pt x 689.57625pt>
+File: ./pictures/applications/J2o.png Graphic file (type png)
+<use ./pictures/applications/J2o.png>
+Package pdftex.def Info: ./pictures/applications/J2o.png  used on input line 35
+8.
+(pdftex.def)             Requested size: 197.71918pt x 144.54pt.
+<./pictures/applications/J3o.png, id=48, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J3o.png Graphic file (type png)
+<use ./pictures/applications/J3o.png>
+Package pdftex.def Info: ./pictures/applications/J3o.png  used on input line 36
+3.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 363--364
+[][] 
+ []
+
+<./pictures/applications/J4o.png, id=49, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J4o.png Graphic file (type png)
+<use ./pictures/applications/J4o.png>
+Package pdftex.def Info: ./pictures/applications/J4o.png  used on input line 36
+9.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 369--370
+[][] 
+ []
+
+<./pictures/applications/J5o.png, id=50, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J5o.png Graphic file (type png)
+<use ./pictures/applications/J5o.png>
+Package pdftex.def Info: ./pictures/applications/J5o.png  used on input line 37
+4.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 374--375
+[][] 
+ []
+
+<./pictures/applications/J6o.png, id=51, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J6o.png Graphic file (type png)
+<use ./pictures/applications/J6o.png>
+Package pdftex.def Info: ./pictures/applications/J6o.png  used on input line 38
+0.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 380--381
+[][] 
+ []
+
+<./pictures/applications/J7o.png, id=52, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J7o.png Graphic file (type png)
+<use ./pictures/applications/J7o.png>
+Package pdftex.def Info: ./pictures/applications/J7o.png  used on input line 38
+5.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 385--386
+[][] 
+ []
+
+<./pictures/applications/J2.png, id=53, 1445.4pt x 787.44188pt>
+File: ./pictures/applications/J2.png Graphic file (type png)
+<use ./pictures/applications/J2.png>
+Package pdftex.def Info: ./pictures/applications/J2.png  used on input line 391
+.
+(pdftex.def)             Requested size: 265.29959pt x 144.54pt.
+
+Overfull \hbox (13.4927pt too wide) in paragraph at lines 391--392
+[][] 
+ []
+
+(ifacconf.bbl [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [5]
-(ifacconf.aux) ) 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./pictures/applications/T2.png (PNG copy)> <./pictures/applications/T4.png
+ (PNG copy)> <./pictures/applications/Unormalized.png (PNG copy)> <./pictures/a
+pplications/Normalized.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./pictures/applications/J1o.png (PNG copy)> <./pictures/applications/J2o.p
+ng (PNG copy)> <./pictures/applications/J3o.png (PNG copy)> <./pictures/applica
+tions/J4o.png (PNG copy)> <./pictures/applications/J5o.png (PNG copy)> <./pictu
+res/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy
+)> <./pictures/applications/J2.png (PNG copy)>]) [7
+
+] (ifacconf.aux) ) 
 Here is how much of TeX's memory you used:
- 2369 strings out of 478338
- 36785 string characters out of 2836227
- 351362 words of memory out of 3000000
- 20806 multiletter control sequences out of 15000+600000
+ 3895 strings out of 478338
+ 67666 string characters out of 2836227
+ 376905 words of memory out of 3000000
+ 22310 multiletter control sequences out of 15000+600000
  474947 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,62p,1589b,257s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kaigom/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Kaigom/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Kaig
-om/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.p
-fb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Kai
-gom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on ifacconf.pdf (5 pages, 2899500 bytes).
+ 67i,10n,77p,1583b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kaigom/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kaigom/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Kaigom/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ka
+igom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5
+.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/K
+aigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on ifacconf.pdf (7 pages, 4000076 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
