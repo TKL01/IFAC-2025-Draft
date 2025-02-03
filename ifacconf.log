@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 03:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.15)  3 FEB 2025 03:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,33 +404,35 @@ res/applications/J6o.png (PNG copy)> <./pictures/applications/J7o.png (PNG copy
 
 ] (ifacconf.aux) ) 
 Here is how much of TeX's memory you used:
- 3895 strings out of 478338
- 67666 string characters out of 2836227
- 376905 words of memory out of 3000000
- 22310 multiletter control sequences out of 15000+600000
- 474947 words of font info for 52 fonts, out of 8000000 for 9000
+ 3897 strings out of 478338
+ 67685 string characters out of 2836227
+ 377905 words of memory out of 3000000
+ 22311 multiletter control sequences out of 15000+600000
+ 475256 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,77p,1583b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,10n,77p,1583b,547s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kaigom/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kaigom/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Kaigom/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ka
-igom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5
-.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr8.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kaigom/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/K
-aigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on ifacconf.pdf (7 pages, 4000076 bytes).
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Kaigom/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kaigom/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ka
+igom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr5.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Kaigom/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaigom/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kaigom/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ka
+igom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
+:/Users/Kaigom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+t8.pfb>
+Output written on ifacconf.pdf (7 pages, 4010819 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
