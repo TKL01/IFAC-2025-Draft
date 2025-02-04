@@ -23,7 +23,7 @@ Basha, A.J. (2025).
   Zhang}]{cai2021temperature}
 Cai, Y., Cen, Y., Cen, G., Yao, X., Zhao, C., and Zhang, Y. (2021).
 \newblock Temperature prediction of pmsms using pseudo-siamese nested lstm.
-\newblock \emph{World Electric Vehicle Journal}, 12(2), 57.
+\newblock \emph{World Electric Vehicle Journal}.
 
 \bibitem[{Carayannis et~al.(2024)Carayannis, Posselt, and
   Preissler}]{carayannis2024toward}
@@ -153,6 +153,6 @@ Yehorov, A., Duniev, O., Masliennikov, A., Gouws, R., Dobzhanskyi, O., and
 Zhang, X., Cao, Y., and Zhang, C. (2024).
 \newblock Model predictive voltage control for pmsm system with low parameter
   sensitivity.
-\newblock \emph{IEEE Transactions on Industrial Electronics}.
+\newblock \emph{IEEE Transactions on Industrial El.}
 
 \end{thebibliography}
