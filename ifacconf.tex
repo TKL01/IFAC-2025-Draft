@@ -64,7 +64,7 @@ Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in fun
 	\end{center}
 \end{figure*}
 
-Predicting the thermal behavior of robot joints is therefore an essential step toward the development of countermeasures that help anticipate overheating, preserve the robot availability,  prolong its lifetime, and improve its usability. Industry 4.0, industry 5.0, together with society 6.0 are likely to benefit from this capability. In fact, the thermal prediction propels operational efficiency through its significant contribution to the design of thermally uncritical trajectories that  preserve the motor performance and thus robot availability in fully automated high-speed low-time-to-market manufacturing. This skill is missing in current industrial applications. Endowing robots with a thermal management based upon machine learning is useful to accommodate uncertainties emanating from \textit{unseen} events. These include the highly dynamic robotized human-centered assistance for smart living and social well-being. These goals requires an approach that turns robot diversity and application uncertainties into competitive advantages in terms \mbox{of flexibility,  transferability, and scalability.}
+Predicting the thermal behavior of robot joints is therefore an essential step toward the development of countermeasures that help anticipate overheating, preserve the robot availability,  prolong its lifetime, and improve its usability. Industry 4.0, industry 5.0, together with society 6.0 are likely to benefit from this capability. In fact, the thermal prediction propels operational efficiency through its significant contribution to the design of thermally uncritical trajectories that  preserve the motor performance and thus robot availability in fully automated high-speed low-time-to-market manufacturing. This skill is missing in current industrial applications. Endowing robots with a thermal management based upon machine learning is useful to accommodate uncertainties emanating from \textit{unseen} events. These include the highly dynamic robotized human-centered assistance for smart living and social well-being. These goals require an approach that turns robot diversity and application uncertainties into competitive advantages in terms \mbox{of flexibility,  transferability, and scalability.}
 
 This work predicts  the thermal behavior of joint motors. The prediction approach is
 \begin{itemize}
@@ -98,7 +98,7 @@ To cover a wide range of robotic movements, both randomly generated joint angle 
 The trajectories are initially tracked at varying speeds and with different payloads. The recording duration of each set of trajectories is also varied in order to analyze the temperature rise and the cooling behaviour of the joints. 
 For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load torques on the joints. However, the vertical position was not always used for cooling. Movements without intentional cooling are also conducted sequentially to include as realistic and diversified conditions as possible.
  Randomized joint position are constrained within minimum and maximum limits to avoid potential collisions with the environment. 
-Completed experiments indicate that the second and fourth experience the highest temperature increase. Collected datasets are freely available on our streamlit web app, 
+Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. Collected datasets are freely available on our streamlit web app, 
 which automatically visualizes the CSV files and displays the \mbox{specific joint data.\footnote{https://irolabkinova.streamlit.app}} 
 
 \subsection{Temperature profile approximation}
@@ -206,7 +206,7 @@ Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benef
 \begin{itemize}
   \item FNNs disregard historical information and consider each input independently.  LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
   \item FNNs can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (e.g., states and gates). LSTMs store and update past information.
-  \item Joint temperatures change due to continous loads as well as temporal dynamics of joint torques. The time-dependency can be captures by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or reordering of the temporal dynamics is non-critical.
+  \item Joint temperatures change due to continous loads as well as temporal dynamics of joint torques. The time-dependency can be captures by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or modifying of the temporal dynamics is non-critical.
 \end{itemize}
 % \begin{table}[hb]
 %   \begin{center}
@@ -312,7 +312,7 @@ Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Wherea
 
 
 \section{Conclusion}
-This work shows that the temperature behavior of a robot can be predicted in advance without any analytical  model about how joint torques map to motor temperatures. The proposed approach is not only model-free but also scales up for any number of joint motors and generalizes when exposed to  unseen inputs despite the small amount of training data being used. Its effectiveness is evaluated and demonstrated for complex joint torque profiles and all each of the seven joints of the experimental robot. The proposed framework can help anticipate and alleviate the widespread shutdown  of industrial and service robots once a critical temperature  is attained, design thermally uncritical joint trajectories, prolong the lifetime of robot motors, and prevent thermal burns in industry and society.
+This work shows that the temperature behavior of a robot can be predicted in advance without any analytical  model about how joint torques map to motor temperatures. The proposed approach is not only model-free but also scales up for any number of joint motors and generalizes when exposed to  unseen inputs despite the small amount of training data being used. Its effectiveness is evaluated and demonstrated for complex joint torque profiles and  each of the seven joints of the experimental robot. The proposed framework can help anticipate and alleviate the widespread shutdown  of industrial and service robots once a critical temperature  is attained, design thermally uncritical joint trajectories, prolong the lifetime of robot motors, and prevent thermal burns in industry and society.
 
 % \begin{ack}
 % Place acknowledgments here.
