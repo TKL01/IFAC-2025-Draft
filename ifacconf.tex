@@ -44,14 +44,14 @@ Robotics, Thermal Management, Artificial Intelligence $\slash$ Machine Learning.
 %===============================================================================
 
 \section{Introduction}
-Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce an overheating of  joint motors of robots. Excessive motor temperatures are detrimental is many ways. They can accelerate the degradation of insulation materials and reduce the motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot because of axial  deformations and drifts (\cite{soga2024skillful}). 
+Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce an overheating of joint motors of robots. Excessive motor temperatures are detrimental in many ways. They can accelerate the degradation of insulation materials and reduce the motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot because of axial  deformations and drifts (\cite{soga2024skillful}). 
 
 
 
 Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in functions to shut down the robot once a critical temperature threshold is attained. Whereas this functionality is advantageous to preserve the performance and reliability of motors and surrounding electronic components, an undesired shutdown tends to compromise the robot availability for production and assistance purposes. This situation gets exacerbated as the robot is not equipped with mechanical breaks as in Fig. \ref{fig:intro}. In this case, critical collisions with the environment might occur, endangering human beings or leading to hardware (i.e., robot, workpiece, workcell, etc) damages. Furthermore, thermal burns represent  not only  a severe safety issue in physical human-robot-interaction but also a hindrance for elevated user experience that is necessary to engage and sustain a symbiosis between humans and robots.
 
 \begin{figure}[t]
-	\centerline{\includegraphics[width=0.85\columnwidth]{pictures/intro.png}}
+	\centerline{\includegraphics[width=0.9\columnwidth]{pictures/intro_zoomed.png}}
 	\caption{Robot posture increasing a motor temperature.}
 	\label{fig:intro}
 \end{figure}
@@ -98,8 +98,7 @@ To cover a wide range of robotic movements, both randomly generated joint angle 
 The trajectories are initially tracked at varying speeds and with different payloads. The recording duration of each set of trajectories is also varied in order to analyze the temperature rise and the cooling behaviour of the joints. 
 For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load torques on the joints. However, the vertical position was not always used for cooling. Movements without intentional cooling are also conducted sequentially to include as realistic and diversified conditions as possible.
  Randomized joint position are constrained within minimum and maximum limits to avoid potential collisions with the environment. 
-Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. Collected datasets are freely available on our streamlit web app, 
-which automatically visualizes the CSV files and displays the \mbox{specific joint data.\footnote{https://irolabkinova.streamlit.app}} 
+Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. Collected datasets are freely available on our streamlit web app.\footnote{https://irolab-fra-uas.streamlit.app/}
 
 \subsection{Temperature profile approximation}
 The temperature profile can be represented approximately with the Gaussian model (i.e. Gauss2) as shown in Fig.~\ref{fig:Gauss2_legend} and outlined in eq.~(\ref{eq:gauss2}):
@@ -190,13 +189,13 @@ Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benef
 	\centering
 	\begin{subfigure}[b]{1.\columnwidth}
 		\centering
-		\includegraphics[height=2.1in]{./pictures/applications/Unormalized.png}
+		\includegraphics[height=2.1in]{./pictures/applications/Unormalized_zoomed.png}
 		\caption{Training loss without data normalization.}
 	\end{subfigure}%
 	~ 
 	\begin{subfigure}[b]{1.\columnwidth}
 		\centering
-		\includegraphics[height=2.1in]{./pictures/applications/Normalized.png}
+		\includegraphics[height=2.1in]{./pictures/applications/Normalized_zoomed.png}
 		\caption{Training loss with z-score data normalization.}
 	\end{subfigure}
 	\caption{Enhanced  convergence velocity and effectiveness of the training loss through data normalization.}
@@ -206,7 +205,7 @@ Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benef
 \begin{itemize}
   \item FNNs disregard historical information and consider each input independently.  LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
   \item FNNs can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (e.g., states and gates). LSTMs store and update past information.
-  \item Joint temperatures change due to continous loads as well as temporal dynamics of joint torques. The time-dependency can be captures by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or modifying of the temporal dynamics is non-critical.
+  \item Joint temperatures change due to continuous loads as well as temporal dynamics of joint torques. The time-dependency can be captured by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or modifying of the temporal dynamics is non-critical.
 \end{itemize}
 % \begin{table}[hb]
 %   \begin{center}
@@ -286,7 +285,7 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 Experiments have been carried out to predict the temperature of all the seven joint motors of the robot in Fig.~\ref{fig:intro} by using joint torques and without any  information  about how the joint torques map to motor temperatures and any assumption on the joint torque profiles. Another goal impacting the energy autonomy  was to keep training data  for a satisfactory prediction accuracy small. We target remote use cases \mbox{with on-board intelligence in the future.} 
 
 
-\subsection{Data acquisition and pre-processing}
+\subsection{Data collection and pre-processing}
 The collected datasets allow the utilization of joint positions, torques, velocities, and currents of all seven joints as input features.
 The selection of the input values for the training can be adjusted as needed, varying from 7 to a total of 28 inputs (Fig.~\ref{fig:DataAquisition}). However, the best result was observed with only the joint torques (see Fig.~\ref{jointtorque}) as input features for the neuronal network. The temperature values of the seven joints are used as targets.
 To evaluate the temperature predictions from the neural networks, randomly selected temperature measurements serve as ground truth.
@@ -296,7 +295,7 @@ The setup for collecting joint torques and corresponding motor temperatures is s
 \begin{equation}
 	x=\tilde{x}\sigma +\mu
 \end{equation}
-Data normalization has significantly speed up the training process and enhanced the prediction accuracy (see Fig.~\ref{trainingloss}). 
+Data normalization has significantly sped up the training process and enhanced the prediction accuracy (see Fig.~\ref{trainingloss}). 
 \subsection{Model training}
 The mean squared error between network output and target temperature data  is adopted as loss function. Back propagation is leveraged for the gradient-based optimization of network weights. The Adaptive Moment {Estimation adapts the learning rate.} The probability with which input elements are dropped out (i.e., set to zero) to prevent  network over-fitting is set to 0.1. A mixture of \textit{tanh}, \textit{elu}, and \textit{sigmoid} are distributed as activation functions (a type per layer) to inject non-linearities  into the network. The output layer activation is  {the identity  function.}
 \subsection{Prediction results}
