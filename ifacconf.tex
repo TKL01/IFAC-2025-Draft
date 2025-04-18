@@ -76,7 +76,7 @@ This work predicts  the thermal behavior of joint motors. The prediction approac
 
 
 
-\section{Related Works}
+\section{Related Work}
 \label{chap:relatedworks}
 Predicting the temperature behavior of robot motors has attracted attention in the recent years. % Online learning of thermal model parameters of a such motor is carried out in \cite{kawaharazuka2020estimation}. The goal is a precise forecasting  of the motor core temperature of musculoskeletal humanoid robots. An enhanced model allows to predict  maximum output motor torques. Anomalous behaviors are detected by analyzing variations of  thermal dynamics. Thermal control is developed to limit the tensions in the actuation of the musculoskeletal humanoid. In order to safely operate a motor at torques which are considerably larger than its rated torques, \cite{singh2021thermal} capture and regulate  core temperatures via current control. To this end, a thermal abstraction  model is developed and employed to design the thermal controller. The goal is to keep the stator temperature below a heating threshold while avoiding risks of high torques. A method is proposed to control the maximum limit of the current to this end. A forced cooling approach is applied to influence the thermal resistance, steady-state current, and output torque. However, cooling strategies might be challenging to implement once the robot is in use potentially in  toughly accessible environments (e.g., space orbits). In this case, intelligent thermal management approaches are helpful.
 
@@ -150,7 +150,7 @@ They are therefore used for predictions where a large number of past states have
 Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benefit from their respective strengths. In essence,
 \begin{table}[b!]
   \begin{center}
-  \caption{Comparison between Feedforward and LSTM neural networks}\label{tb:FFLSTM}
+\caption{Comparison between Feedforward and LSTM neural networks}\label{tb:FFLSTM}  
   \resizebox{0.8\columnwidth}{!}{  
   \begin{tabular}{lcc}
   \hline
