@@ -1,0 +1,42 @@
+# LaTeX Hilfsdateien
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.synctex.gz
+*.synctex(busy)
+
+# Bibliographie
+*.bbl
+*.blg
+
+# Glossar/Index
+*.glo
+*.glg
+*.gls
+*.idx
+*.ilg
+*.ind
+*.acn
+*.acr
+*.alg
+
+# Weitere Dateien
+*.dvi
+*.maf
+*.mtc
+*.mtc1
+*.bcf
+*.lol
+*.run.xml
+
+# PDF (optional)
+*.pdf

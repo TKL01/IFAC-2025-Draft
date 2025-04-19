@@ -1,5 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'ifacconf.blg'
-[57] biber:340> INFO - === Fri Apr 18, 2025, 21:31:50
-[147] Utils.pm:398> ERROR - Cannot find 'ifacconf.bcf'!
-[147] Biber.pm:135> INFO - ERRORS: 1
