@@ -38,5 +38,5 @@
 *.lol
 *.run.xml
 
-# PDF (optional)
-# *.pdf
+# PDF
+ifacconf.pdf
