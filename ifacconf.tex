@@ -44,7 +44,7 @@ Robotics, Thermal Management, Artificial Intelligence $\slash$ Machine Learning.
 %===============================================================================
 
 \section{Introduction}
-Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce an overheating of joint motors of robots. Excessive motor temperatures are detrimental in many ways. They can accelerate the degradation of insulation materials and reduce the motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot because of axial  deformations and drifts (\cite{soga2024skillful}). 
+Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce overheating of joint motors of robots. Excessive motor temperatures are detrimental in many ways. They can accelerate the degradation of insulation materials and reduce motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot due to axial  deformations and drifts (\cite{soga2024skillful}). 
 
 
 
@@ -111,16 +111,13 @@ The temperature profile can be represented approximately with the Gaussian model
   \end{equation}
 Coefficients and metrics for the  profile in Fig.~\ref{fig:Gauss2_legend} are:
 \[
-a_1 = 34.07, \quad b_1 = 276 
+a_1 = 34.07, \quad b_1 = 276, \quad  c_1 = 743.2,
 \]
 
 \[
-c_1 = 743.2, \quad a_2 = 1.668 
+a_2 = 1.668, \quad b_2 = -26.71, \quad c_2 = 103
 \]
 
-\[
-b_2 = -26.71, \quad c_2 = 103
-\]
 
 
 % Sum of Squared Errors (SSE): 5.4852\\
@@ -232,12 +229,12 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 \begin{figure*}[t!]
 	\begin{subfigure}[t]{0.5\textwidth} 
 		\centering 
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j1_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j1.png}
 		\caption{Motor 1: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j2_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j2_unseen.png}
 		\caption{Motor 2: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
 
@@ -245,12 +242,12 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 
     \begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j3_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j3.png}
 		\caption{Motor 3: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j4_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j4.png}
 		\caption{Motor 4: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
 
@@ -258,12 +255,12 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j5_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j5.png}
 		\caption{Motor 5: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j6_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j6.png}
 		\caption{Motor 6: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
 
@@ -271,12 +268,12 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j7_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j7.png}
 		\caption{Motor 7: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
 	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j2_seen_legend_rmse_l_20.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/table/j2_seen.png}
 		\caption{Motor 2: Different predictions with \textbf{seen} joint torques.}
 	\end{subfigure}
 
@@ -362,9 +359,32 @@ Data normalization has significantly sped up the training process and enhanced t
 \subsection{Model training}
 The mean squared error between network output and target temperature data  is adopted as loss function. Back propagation is leveraged for the gradient-based optimization of network weights. The Adaptive Moment {Estimation adapts the learning rate.} The probability with which input elements are dropped out (i.e., set to zero) to prevent  network over-fitting is set to 0.1. A mixture of \textit{tanh}, \textit{elu}, and \textit{sigmoid} are distributed as activation functions (a type per layer) to inject non-linearities  into the network. The output layer activation is  {the identity  function.}
 \subsection{Prediction results}
-The trained neural network of seven hidden layers (one LSTM layer, six feed forward  layers with a decreasing number of neurons toward the output) is fed with torque data. The network input is a  dataset \textit{unseen} during training.  The goal is to  assess the generalization capability of the network when facing new dynamics of the robot (Fig.~\ref{sevenjoint}). Two generalization tests are completed for each of the seven joints.  An additional test with seen data is conducted and restricted to the second joint.
+The trained neural network of seven hidden layers (one LSTM layer, six feed forward  layers with a decreasing number of neurons toward the output) is fed with torque data. The network input is a  dataset \textit{unseen} during training.  The goal is to  assess the generalization capability of the network when facing new dynamics of the robot (Fig.~\ref{sevenjoint}). Two generalization tests are completed for each of the seven joints.  An additional test with seen data is conducted and restricted to the second joint. Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Table~\ref{tb:rmseMAE} summarizes the RMSE and the max absolute error (MAE) of the predictions. 
+Whereas motor temperatures are predicted with negligible RMSE (below $0.16^\circ$) 
+when the two seen  datasets are used as inputs of the trained network (see Fig.~\ref{sevenjoint}.h), the absolute value of the overall prediction error remains below $0.5^\circ$ in the case of totally unseen data (see  Fig.~\ref{sevenjoint}.a-g). 
+It is worth noting that the small training dataset is randomly generated. Generalization accuracy can be further enhanced by augmenting the amount of training data. However, an advantage of working on a small dataset is to assess how a minimum amount of data, energy demand, and a satisfactory accuracy relate. In our specific case, 16 datasets with recording time length as in Fig.~\ref{jointtorque} is suitable. Insights gained are useful to steer on-board machine learning in  mobile \mbox{robots under energy autonomy constraints.}
+\begin{table}[t!]
+  \begin{center}
+  \caption{RMSE and MAE of Fig.~\ref{sevenjoint} a-h.The first RMSE and MAE values refer to the upper, the second values refer to the lower plots of the respective motor temperatures.}\label{tb:rmseMAE}
+  \resizebox{0.8\columnwidth}{!}{  
+  \begin{tabular}{lcc}
+  \hline
+  {Motor no.} & {RMSE [°C]} & {MAE [°C]} \\
+  \hline
+  (a) Motor 1 & 0.0073 $|$ 0.0068 & 0.0232 $|$ 0.0236 \\
+  (b) Motor 2 & 0.0845 $|$ 0.1127 & 0.2683 $|$ 0.3288 \\
+  (c) Motor 3 & 0.0090 $|$ 0.0101 & 0.0293 $|$ 0.0282 \\
+  (d) Motor 4 & 0.1091 $|$ 0.1571 & 0.3445 $|$ 0.4063 \\
+  (e) Motor 5 & 0.0207 $|$ 0.0211 & 0.0611 $|$ 0.0819 \\
+  (f) Motor 6 & 0.0255 $|$ 0.0262 & 0.0744 $|$ 0.0852 \\
+  (g) Motor 7 & 0.0180 $|$ 0.0204 & 0.0560 $|$ 0.0625 \\
+  (h) Motor 2 (seen) & 0.0143 $|$ 0.0292 & 0.0463 $|$ 0.0875 \\
+  \hline
+  \end{tabular}
+  }
+  \end{center}
+\end{table}
 
-Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Whereas motor temperatures are predicted with negligible error (below $0.001^\circ$) when the two seen  datasets are employed as inputs of the trained network (see Fig.~\ref{sevenjoint}.f), the absolute value of the overall prediction error remains below $0.5^\circ$ in the case of totally unseen data (see  Fig.~\ref{sevenjoint}.a-g). It is worth noting that the small training dataset is randomly generated. The generalization accuracy can be further enhanced by augmenting the amount of training data. Nevertheless, an advantage of working on a small dataset is to assess how a minimum amount of data, energy demand, and a satisfactory accuracy relate. In our specific case, 16 datasets with recording time length as in Fig.~\ref{jointtorque} is suitable. Insights gained are useful to steer on-board machine learning in  mobile \mbox{robots under energy autonomy constraints.}
 
 
 
@@ -374,7 +394,7 @@ Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Wherea
 
 
 \section{Conclusion}
-This work shows that the temperature behavior of a robot can be predicted in advance without any analytical  model about how joint torques map to motor temperatures. The proposed approach is not only model-free but also scales up for any number of joint motors and generalizes when exposed to  unseen inputs despite the small amount of training data being used. Its effectiveness is evaluated and demonstrated for complex joint torque profiles and  each of the seven joints of the experimental robot. The proposed framework can help anticipate and alleviate the widespread shutdown  of industrial and service robots once a critical temperature  is attained, design thermally uncritical joint trajectories, prolong the lifetime of robot motors, and prevent thermal burns in industry and society.
+This work shows that the temperature behavior of a robot can be predicted in advance without any analytical  model about how joint torques map to motor temperatures. The proposed approach is not only model-free but also scales up for any number of joint motors and generalizes when exposed to  unseen inputs despite the small amount of training data being used. Its effectiveness is evaluated and demonstrated for complex joint torque profiles and  each of the seven joints of the experimental robot. The proposed framework can help anticipate and alleviate widespread shutdown  of industrial and service robots once a critical temperature  is attained, design thermally uncritical joint trajectories, prolong the lifetime of robot motors, and prevent thermal burns in industry and society.
 
 % \begin{ack}
 % Place acknowledgments here.
