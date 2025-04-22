@@ -359,17 +359,17 @@ Data normalization has significantly sped up the training process and enhanced t
 \subsection{Model training}
 The mean squared error between network output and target temperature data  is adopted as loss function. Back propagation is leveraged for the gradient-based optimization of network weights. The Adaptive Moment {Estimation adapts the learning rate.} The probability with which input elements are dropped out (i.e., set to zero) to prevent  network over-fitting is set to 0.1. A mixture of \textit{tanh}, \textit{elu}, and \textit{sigmoid} are distributed as activation functions (a type per layer) to inject non-linearities  into the network. The output layer activation is  {the identity  function.}
 \subsection{Prediction results}
-The trained neural network of seven hidden layers (one LSTM layer, six feed forward  layers with a decreasing number of neurons toward the output) is fed with torque data. The network input is a  dataset \textit{unseen} during training.  The goal is to  assess the generalization capability of the network when facing new dynamics of the robot (Fig.~\ref{sevenjoint}). Two generalization tests are completed for each of the seven joints.  An additional test with seen data is conducted and restricted to the second joint. Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Table~\ref{tb:rmseMAE} summarizes the RMSE and the max. absolute error (MAE) of the predictions. 
+The trained neural network of seven hidden layers (one LSTM layer, six feed forward  layers with a decreasing number of neurons toward the output) is fed with torque data. The network input is a  dataset \textit{unseen} during training.  The goal is to  assess the generalization capability of the network when facing new dynamics of the robot (Fig.~\ref{sevenjoint}). Two generalization tests are completed for each of the seven joints.  An additional test with seen data is conducted and restricted to the second joint. Validation and generalization results are shown in Fig.~\ref{sevenjoint}. Table~\ref{tb:rmseMaxAE} summarizes the RMSE and the max. absolute error (MaxAE) of the predictions. 
 Whereas motor temperatures are predicted with negligible RMSE (below $0.16^\circ$) 
 when the two seen  datasets are used as inputs of the trained network (see Fig.~\ref{sevenjoint}.h), the absolute value of the overall prediction error remains below $0.5^\circ$ in the case of totally unseen data (see  Fig.~\ref{sevenjoint}.a-g). 
 It is worth noting that the small training dataset is randomly generated. Generalization accuracy can be further enhanced by augmenting the amount of training data. However, an advantage of working on a small dataset is to assess how a minimum amount of data, energy demand, and a satisfactory accuracy relate. In our specific case, 16 datasets with recording time length as in Fig.~\ref{jointtorque} is suitable. Insights gained are useful to steer on-board machine learning in  mobile \mbox{robots under energy autonomy constraints.}
 \begin{table}[t!]
   \begin{center}
-  \caption{RMSE and MAE of Fig.~\ref{sevenjoint} a-h.The first RMSE and MAE values refer to the upper, the second values refer to the lower plots of the respective motor temperatures.}\label{tb:rmseMAE}
+  \caption{RMSE and MaxAE of Fig.~\ref{sevenjoint} a-h.The first RMSE and MaxAE values refer to the upper, the second values refer to the lower plots of the respective motor temperatures.}\label{tb:rmseMaxAE}
   \resizebox{0.8\columnwidth}{!}{  
   \begin{tabular}{lcc}
   \hline
-  {Motor no.} & {RMSE [°C]} & {MAE [°C]} \\
+  {Motor no.} & {RMSE [°C]} & {MaxAE [°C]} \\
   \hline
   (a) Motor 1 & 0.0076 $|$ 0.0068 & 0.0246 $|$ 0.0224 \\
   (b) Motor 2 & 0.0853 $|$ 0.1166 & 0.2674 $|$ 0.3503 \\
