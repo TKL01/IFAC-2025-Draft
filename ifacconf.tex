@@ -37,40 +37,37 @@ Frankfurt University of Applied Sciences, 60318 Frankfurt am Main, Germany (e-ma
 \end{abstract}
 
 \begin{keyword}
-Robotics, Thermal Management, Artificial Intelligence $\slash$ Machine Learning.
+Robotics, Artificial Intelligence, Condition Monitoring, Temperature Control.
 \end{keyword}
 
 \end{frontmatter}
 %===============================================================================
 
 \section{Introduction}
-Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce overheating of joint motors of robots. Excessive motor temperatures are detrimental in many ways. They can accelerate the degradation of insulation materials and reduce motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot due to axial  deformations and drifts (\cite{soga2024skillful}). 
+Robots are commonly used to  achieve repetitive and hazardous tasks in industry and society. Meanwhile, they increasingly and skillfully assist and augment humans. Included are  applications with a pronounced level of physical interactions between humans and robots, such as using a robot as a companion (\cite{basha2025robotic}), home-helper and caregiver (\cite{tsui2025exploring},\cite{gkiolnta2025challenges}), as well as a prosthesis (\cite{kim2025mode}). In this respect, high payload manipulations, large joint accelerations, and motions with specific configurations (see, e.g., Fig. \ref{fig:intro}) can induce the overheating of joint motors of robots. Excessive motor temperatures are detrimental in many ways. They can accelerate the degradation of insulation materials and reduce motor efficiency (\cite{yehorov2025study}) along with jeopardizing the positioning accuracy of the robot due to axial  deformations and drifts (\cite{soga2024skillful}). 
 
 
 
-Most robot manufacturers, including Franka, Kinova, and KUKA, offer built-in functions to shut down the robot once a critical temperature threshold is attained. Whereas this functionality is advantageous to preserve the performance and reliability of motors and surrounding electronic components, an undesired shutdown tends to compromise the robot availability for production and assistance purposes. This situation gets exacerbated as the robot is not equipped with mechanical breaks as in Fig. \ref{fig:intro}. In this case, critical collisions with the environment might occur, endangering human beings or leading to hardware (i.e., robot, workpiece, workcell, etc) damages. Furthermore, thermal burns represent  not only  a severe safety issue in physical human-robot-interaction but also a hindrance for elevated user experience that is necessary to engage and sustain a symbiosis between humans and robots.
-
+Most robot manufacturers, including Franka, Kinova,  and KUKA, offer built-in functions to shut down the robot once a critical temperature threshold is attained. Whereas this functionality is advantageous to preserve the performance and reliability of motors and surrounding electronic components, an undesired shutdown tends to compromise the robot availability for production and assistance purposes. This situation gets exacerbated as the robot is not equipped with mechanical brakes, as in Fig. \ref{fig:intro}. In this case, critical collisions with the environment might occur, endangering human beings or leading to hardware (i.e., robot, workpiece, workcell, etc) damages. Furthermore, thermal burns represent  not only  a severe safety issue in physical human-robot-interaction, but also a hindrance for elevated user experience that is necessary to engage and \mbox{sustain a symbiosis between humans and robots.}
 \begin{figure}[t]
 	\centerline{\includegraphics[width=0.9\columnwidth]{pictures/intro_zoomed.png}}
-	\caption{Robot posture increasing a motor temperature.}
+	\caption{Posture increasing the temperature of the 2. motor.}
 	\label{fig:intro}
 \end{figure}
-
 \begin{figure*}[t!]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{pictures/DataCollection.pdf} 
-		\caption{Kinova data collection via OPC UA Server.} 
+		\includegraphics[width=0.76\textwidth]{pictures/DataCollection.pdf} 
+		\caption{Data collection from the Kinova robot (l.h.s) via an OPC UA Server and simplified processing pipeline (r.h.s).} 
 		\label{fig:DataAquisition}
 	\end{center}
 \end{figure*}
-
 Predicting the thermal behavior of robot joints is therefore an essential step toward the development of countermeasures that help anticipate overheating, preserve the robot availability,  prolong its lifetime, and improve its usability. Industry 4.0, industry 5.0, together with society 6.0 are likely to benefit from this capability. In fact, the thermal prediction propels operational efficiency through its significant contribution to the design of thermally uncritical trajectories that  preserve the motor performance and thus robot availability in fully automated high-speed low-time-to-market manufacturing. This skill is missing in current industrial applications. Endowing robots with a thermal management based upon machine learning is useful to accommodate uncertainties emanating from \textit{unseen} events. These include the highly dynamic robotized human-centered assistance for smart living and social well-being. These goals require an approach that turns robot diversity and application uncertainties into competitive advantages in terms \mbox{of flexibility,  transferability, and scalability.}
 
 This work predicts  the thermal behavior of joint motors. The prediction approach is
 \begin{itemize}
 	\item data-driven, paving the ground for an  insightful, non-invasive, and inclusive operationalization in real-time. %The approach therefore follows  design objectives of our overarching Metarobotics framework (\cite{kaigom2023metarobotics}). In our previous work (\cite{abt}), the thermal behavior of  robots is sensed and virtually made accessible to even novices through  immersive, dynamic, and intuitive monitoring and control driven by digital twins (\cite{kaigom2020value}). Since most robots do not output temperature data, we extend this previous work by capturing their thermal motor behavior from observed  actuation profiles.
 	\item model-free through the development of a deep learning-based framework that leverages multiple hybrid layers to capture the unknown dynamics between joint actuation and motor temperature. No system-related parametric or actuation profile assumptions are made. Model complexity is thereby avoided.  Generalization to new events and transferability to other robot types {regardless of the number and type of joint motors are fostered.}
-	\item evaluated on data collected from a redundant robot with seven joints (see Fig.~\ref{fig:DataAquisition}). Practical advantages of data normalization are highlighted.
+	\item evaluated on data collected from a redundant Kinova Gen 3 robot with seven joints (see Fig.~\ref{fig:DataAquisition}). Practical advantages of data normalization are highlighted.
 \end{itemize}
 
 
@@ -78,9 +75,7 @@ This work predicts  the thermal behavior of joint motors. The prediction approac
 
 \section{Related Work}
 \label{chap:relatedworks}
-Predicting the temperature behavior of robot motors has attracted attention in the recent years. % Online learning of thermal model parameters of a such motor is carried out in \cite{kawaharazuka2020estimation}. The goal is a precise forecasting  of the motor core temperature of musculoskeletal humanoid robots. An enhanced model allows to predict  maximum output motor torques. Anomalous behaviors are detected by analyzing variations of  thermal dynamics. Thermal control is developed to limit the tensions in the actuation of the musculoskeletal humanoid. In order to safely operate a motor at torques which are considerably larger than its rated torques, \cite{singh2021thermal} capture and regulate  core temperatures via current control. To this end, a thermal abstraction  model is developed and employed to design the thermal controller. The goal is to keep the stator temperature below a heating threshold while avoiding risks of high torques. A method is proposed to control the maximum limit of the current to this end. A forced cooling approach is applied to influence the thermal resistance, steady-state current, and output torque. However, cooling strategies might be challenging to implement once the robot is in use potentially in  toughly accessible environments (e.g., space orbits). In this case, intelligent thermal management approaches are helpful.
-
-
+Predicting the temperature behavior of robot motors has attracted attention in the recent years. % 
 \cite{afaq2023intelligent} focus on thermal management of robotic applications under extreme temperatures. Electronics heating and cooling are considered. A temperature control driven by fuzzy logic is developed and demonstrated to this end. Decreases of extreme high temperature from $50^{\circ}$ to $8^{\circ}$ are shown. Fan-based forced convection is used to cool electronics. Excessive internal temperatures in a permanent magnet synchronous motor (PMSM)  taking non-stationary loads, which might lead to a reduction of its life time, is addressed in \cite{chen2024lifetime}. An accelerated degradation model is derived to evaluate the reliability function and predict the lifetime of the PMSM under thermal stress.  Geometric backlash and temperature-related drift errors in joints of industrial robots are compensated in \cite{sigron2023compensation}. A model that reflects the thermal expansion of links is developed and used for thermal expansion correction.  LSTM Neural
 Networks (\cite{he2024rotor})  and   Pseudo-Siamese Nested LSTM (\cite{cai2021temperature}) are employed to predict the temperature in Permanent Magnet Synchronous Motors. A trapezoidal torque profile is employed in \cite{he2024rotor} whereas the torque dynamics is not released in (\cite{cai2021temperature}). A thermal recovery of robot joints is achieved in  \cite{jorgensen2019thermal}. To this end, the thermal dynamics is captured as a first order ordinary differential equation subject to constant positive and negative step-like profiles of joint torques. The exponential-based dynamics of the temperature behavior is derived.  A parameter identification is carried out to demonstrate the performance of the model for step-like joint torques. %Another model-based approach is proposed in \cite{trinh2023modeling} to predict temperature-dependent joint frictions in industrial robots.
 
@@ -374,7 +369,7 @@ It is worth noting that the small training dataset is randomly generated. Genera
   (a) Motor 1 & 0.0076 $|$ 0.0068 & 0.0246 $|$ 0.0224 \\
   (b) Motor 2 & 0.0853 $|$ 0.1166 & 0.2674 $|$ 0.3503 \\
   (c) Motor 3 & 0.0094 $|$ 0.0105 & 0.0308 $|$ 0.0274 \\
-  (d) Motor 4 & 0.1054 $|$ 0.1625 & 0.3327 $|$ 0.4275 \\
+  (d) Motor 4 & 0.1054 $|$ 0.1625 & \textbf{0.3327} $|$ \textbf{0.4275} \\
   (e) Motor 5 & 0.0202 $|$ 0.0209 & 0.0638 $|$ 0.0826 \\
   (f) Motor 6 & 0.0259 $|$ 0.0275 & 0.0762 $|$ 0.0974 \\
   (g) Motor 7 & 0.0178 $|$ 0.0188 & 0.0441 $|$ 0.0535 \\
