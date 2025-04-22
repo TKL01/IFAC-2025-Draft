@@ -98,7 +98,7 @@ To cover a wide range of robotic movements, both randomly generated joint angle 
 The trajectories are initially tracked at varying speeds and with different payloads. The recording duration of each set of trajectories is also varied in order to analyze the temperature rise and the cooling behaviour of the joints. 
 For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load torques on the joints. However, the vertical position was not always used for cooling. Movements without intentional cooling are also conducted sequentially to include as realistic and diversified conditions as possible.
  Randomized joint position are constrained within minimum and maximum limits to avoid potential collisions with the environment. 
-Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. Collected datasets are freely available on our streamlit web app.\footnote{https://irolab-fra-uas.streamlit.app/}
+Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. 
 
 \subsection{Temperature profile approximation}
 The temperature profile can be represented approximately with the Gaussian model (i.e. Gauss2) as shown in Fig.~\ref{fig:Gauss2_legend} and outlined in eq.~(\ref{eq:gauss2}):
@@ -150,7 +150,7 @@ They are therefore used for predictions where a large number of past states have
 Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benefit from their respective strengths. In essence,
 \begin{table}[b!]
   \begin{center}
-\caption{Comparison between Feedforward and LSTM neural networks}\label{tb:FFLSTM}  
+  \caption{Comparison between Feedforward and LSTM neural networks}\label{tb:FFLSTM}
   \resizebox{0.8\columnwidth}{!}{  
   \begin{tabular}{lcc}
   \hline
@@ -205,7 +205,7 @@ Table~\ref{tb:FFLSTM} compares  neural networks integrated in this work to benef
 \begin{itemize}
   \item FNNs disregard historical information and consider each input independently.  LSTM networks are able to store the context of previous points in time (sequential data) through memory cells and use this information for future predictions (\cite{Liu}).
   \item FNNs can be trained with lower computational power and in a shorter time compared to LSTMs, which consists of more complex structures (e.g., states and gates). LSTMs store and update past information.
-  \item Joint temperatures change due to continuous loads as well as temporal dynamics of joint torques. The time-dependency can be captured by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or modifying of the temporal dynamics is non-critical.
+  \item Joint temperatures change as a result of continuous loads and the temporal dynamics of joint torques. The time-dependency can be captured by LSTMs. They are specifically designed for time series. FNNs are more suitable for regression problems on static data points where a disturbance or modifying of the temporal dynamics is non-critical.
 \end{itemize}
 % \begin{table}[hb]
 %   \begin{center}
@@ -229,56 +229,119 @@ We implement and train a deep neural network that combines LSTM as a feature-ext
 
 
 
-
 \begin{figure*}[t!]
-	\centering
-	\begin{subfigure}[t]{\columnwidth}
-		\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J1o.png}
+	\begin{subfigure}[t]{0.5\textwidth} 
+		\centering 
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j1_legend_rmse_l_20.png}
 		\caption{Motor 1: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
-	~ 
-	\begin{subfigure}[t]{\columnwidth}
+	\begin{subfigure}[t]{0.5\textwidth}
 		\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J2o.png}
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j2_legend_rmse_l_20.png}
 		\caption{Motor 2: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
-	\begin{subfigure}[t]{\columnwidth}
-		%\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J3o.png}
+
+    \vspace{1ex} 
+
+    \begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j3_legend_rmse_l_20.png}
 		\caption{Motor 3: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
-	~ 
-	\begin{subfigure}[t]{\columnwidth}
-		%\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J4o.png}
+	\begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j4_legend_rmse_l_20.png}
 		\caption{Motor 4: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
-	\begin{subfigure}[t]{\columnwidth}
-		%	\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J5o.png}
+
+    \vspace{1ex} 
+
+	\begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j5_legend_rmse_l_20.png}
 		\caption{Motor 5: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}%
-	~ 
-	\begin{subfigure}[t]{\columnwidth}
-		%	\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J6o.png}
+	\begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j6_legend_rmse_l_20.png}
 		\caption{Motor 6: Different predictions with \textbf{unseen} joint torques.}
 	\end{subfigure}
-	\begin{subfigure}[t]{\columnwidth}
-		%	\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J7o.png}
+
+    \vspace{1ex} 
+
+	\begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j7_legend_rmse_l_20.png}
 		\caption{Motor 7: Different predictions with \textbf{unseen} joint torques.}
-	\end{subfigure}
-	~
-	\begin{subfigure}[t]{\columnwidth}
-		%	\centering
-		\includegraphics[height=2.1in]{./pictures/applications/J2.png}
+	\end{subfigure}%
+	\begin{subfigure}[t]{0.5\textwidth}
+		\centering
+		\includegraphics[height=2.1in, width=\linewidth, keepaspectratio]{./pictures/applications/feedback/new/j2_seen_legend_rmse_l_20.png}
 		\caption{Motor 2: Different predictions with \textbf{seen} joint torques.}
 	\end{subfigure}
+
 	\caption{Capturing the thermal behavior of joint motors of the robot in Fig.~\ref{fig:intro} with previously unseen and seen data.}
-	\label{sevenjoint}
+	\label{sevenjoint} 
 \end{figure*}
+
+%-------------------------------------OLD-----------------------------------------------
+% \begin{figure*}[t!]
+% 	\centering
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J1o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j1_legend_rmse_l_20.png}
+% 		\caption{Motor 1: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}%
+% 	~ 
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J2o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j2_legend_rmse_l_20.png}
+% 		\caption{Motor 2: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J3o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j3_legend_rmse_l_20.png}
+% 		\caption{Motor 3: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}%
+% 	~ 
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J4o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j4_legend_rmse_l_20.png}
+% 		\caption{Motor 4: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%	\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J5o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j5_legend_rmse_l_20.png}
+% 		\caption{Motor 5: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}%
+% 	~ 
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%	\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J6o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j6_legend_rmse_l_20.png}
+% 		\caption{Motor 6: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%	\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J7o.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j7_legend_rmse_l_20.png}
+% 		\caption{Motor 7: Different predictions with \textbf{unseen} joint torques.}
+% 	\end{subfigure}
+% 	~
+% 	\begin{subfigure}[t]{\columnwidth}
+% 		%	\centering
+% 		%\includegraphics[height=2.1in]{./pictures/applications/J2.png}
+%         \includegraphics[height=2.1in]{./pictures/applications/feedback/new/j2_seen_legend_rmse_l_20.png}
+% 		\caption{Motor 2: Different predictions with \textbf{seen} joint torques.}
+% 	\end{subfigure}
+% 	\caption{Capturing the thermal behavior of joint motors of the robot in Fig.~\ref{fig:intro} with previously unseen and seen data.}
+% 	\label{sevenjoint}
+% \end{figure*}
 
 
 \section{Application}
