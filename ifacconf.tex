@@ -91,7 +91,7 @@ The full state of our experimental Kinova Gen 3 ultra-lightweight robot with sev
 Positions, temperatures, torques, velocities and currents of each of the seven joints are stored, via a client application, as parameters in CSV files and subsequently processed for the neural network trainings, see Fig.~\ref{fig:DataAquisition}.
 To cover a wide range of robotic movements, both randomly generated joint angle trajectories and predefined Cartesian trajectories for pick and place tasks, for example, are generated using the Kortex API (\cite{kortexAPI}). 
 The trajectories are initially tracked at varying speeds and with different payloads. The recording duration of each set of trajectories is also varied in order to analyze the temperature rise and the cooling behaviour of the joints. 
-For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load torques on the joints. However, the vertical position was not always used for cooling. Movements without intentional cooling are also conducted sequentially to include as realistic and diversified conditions as possible.
+For cooling, the robot was positioned in a vertical position, as this joint configuration imposes minimal load torques on the joints. Movements without intentional cooling are also conducted sequentially to include as realistic and diversified conditions as possible.
  Randomized joint position are constrained within minimum and maximum limits to avoid potential collisions with the environment. 
 Completed experiments indicate that  the second and fourth joint exhibit the highest temperature increases. 
 
